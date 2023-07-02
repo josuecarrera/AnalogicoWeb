@@ -44,7 +44,15 @@ export const about = [
     desc: "Las telecomunicaciones han sufrido un gran cambio desde el siglo 19. Las comunicaciones apropiadas surgieron con la llegada del telégrafo en 1833. Un gran paso adelante en el establecimiento de comunicación entre personas a largas distancias. El telégrafo y el correo postal se convirtieron más tarde en los dos medios por los cuales las personas mantienen contacto entre sí a distancia. El sistema es lento y puede tardar días o semanas en estar disponibles las noticias. [1]",
     desc1: "Línea de tiempo",
     desc2: "Ilustración 1 Historia de las telecomunicaciones",
+    desc3: "En la era de la información en la que vivimos, son muy comunes los términos analógico y digital, en poco tiempo, poco a poco se ha ido abandonando el uso de sistemas analógicos para dar paso a componentes y tecnologías digitales. Con el desarrollo de los ordenadores y la demanda de una comunicación más rápida comienza la era de la comunicación. Con la generalización del uso de los ordenadores y el uso de Internet se desarrollan sistemas de comunicación entre usuarios, como los e-mails y los chats.",
+    desc4: "lustración 2 Convertidor A/D",
+    desc5: "Ilustración 1 Historia de las telecomunicaciones",
+    desc6: "El medio de transmisión constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Se Distinguen dos tipos de medios: guiados y no guiados. En ambos casos la transmisión se realiza por medio de ondas electromagnéticas. Los medios guiados conducen (guían) las ondas a través de un camino físico, ejemplos de estos medios son el cable coaxial, la fibra óptica y el par trenzado. Los medios no guiados proporcionan un soporte para que las ondas se transmitan, pero no las dirigen; como ejemplo de ellos son el aire y el vacío",
+    desc7: "Ilustración 1 Historia de las telecomunicaciones",
     cover: "./images/LineaDeTiempo.png",
+    cover1: "./images/ConvertidorAD.png",
+    cover2: "./images/ElementosCom.png",
+    cover3: "./images/MediosTransmision.png",
   },
 ]
 export const services = [

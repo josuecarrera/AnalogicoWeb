@@ -30,7 +30,7 @@ a:hover {
 p {
   color: var(--sliver);
   font-size: 15px;
-  line-height: 25px;
+  line-height: 30px;
   margin: 15px 0;
   padding: 20px;
 }
@@ -222,7 +222,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 48vh; /* Ajusta la altura como desees */
+  height: 60vh; /* Ajusta la altura como desees */
 }
 
 
@@ -413,8 +413,8 @@ label {
 footer {
   text-align: center;
   background-color: var(--primaryBackground);
-  padding: 70px;
-  margin-top: 50px;
+  padding: 58px;
+  margin-top: 185px;
 }
 footer i {
   margin: 5px;
