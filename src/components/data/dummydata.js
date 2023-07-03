@@ -164,24 +164,24 @@ export const portfolio = [
 export const testimonials = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "La modulación de frecuencia consiste en variar la frecuencia de la onda portadora de acuerdo con la intensidad de la onda de información. La amplitud de la onda modulada es constante e igual que la de la onda portadora.",
     image: "./images/testimonials/team-1.png",
     name: "Alamin Musa",
-    post: "Front End Developer",
+    post: "Modulación por frecuencia analógica (FM)",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "La modulación angular, es la que resulta de variar la fase o la frecuencia instantánea de una portadora, con una función proporcional a la señal de modulación.",
     image: "./images/testimonials/team-2.png",
     name: "Alex Ander",
-    post: "Back End Developer",
+    post: "Modulación angular",
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "Un modulador de fase es un circuito en el que se hace variar Ia portadora de tal modo que su fase instantánea es proporcional a Ia señal moduladora.",
     image: "./images/testimonials/team-3.png",
     name: "GorkCoder",
-    post: "React Developer",
+    post: "Moduladores y demoduladores de fase y de frecuencia",
   },
 ]
 export const blog = [
