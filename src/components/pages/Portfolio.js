@@ -23,7 +23,7 @@ export const Portfolio = () => {
     <>
       <article>
         <div className="container">
-          <Heading title="Portfolio" />
+          <Heading title=" TRANSMISIÓN POR MODULACIÓN DE AMPLITUD" />
           <div className="catButton">
             {category.map((category) => (
               <button
