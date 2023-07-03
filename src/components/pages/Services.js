@@ -1,13 +1,14 @@
 import React from "react";
 import { Heading } from "../common/Heading";
 import { services } from "../data/dummydata";
+import { BringPdfTwo } from "../DataPDFTwo/BringPdfTwo"
 
 export const Services = () => {
   return (
     <>
       <section className="services">
         <div className="container">
-          <Heading title="Services" />
+          <Heading title="GENERADORES DE SEÑALES" />
           <div className="content grid3">
             {services.map((item) => (
               <div className="box" data-aos="flip-left">
@@ -17,6 +18,7 @@ export const Services = () => {
               </div>
             ))}
           </div>
+          <BringPdfTwo />
         </div>
       </section>
     </>

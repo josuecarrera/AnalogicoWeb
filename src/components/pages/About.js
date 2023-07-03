@@ -67,7 +67,7 @@ export const About = () => {
                 <div className="img-container"  data-aos="fade-down-right" >
                   <img src={val.cover2} alt="" />
                 </div>
-                <p>Ilustración 1 Historia de las telecomunicaciones</p>
+                <p>Ilustración 3 Elementos de un sistema de comunicacion</p>
 
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">Download CV</button> */}
@@ -91,7 +91,7 @@ export const About = () => {
                 <div className="img-container"  data-aos="fade-down-right" >
                   <img src={val.cover3} alt="" />
                 </div>
-                <p>Ilustración 1 Historia de las telecomunicaciones</p>
+                <p>Ilustracion 4 Medios de transmisión</p>
                 <BringPdf/>
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
