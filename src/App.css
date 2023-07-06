@@ -30,7 +30,7 @@ a:hover {
 p {
   color: var(--sliver);
   font-size: 15px;
-  line-height: 30px;
+  line-height: 20px;
   margin: 15px 0;
   padding: 20px;
 }
@@ -63,6 +63,7 @@ button {
   padding: 15px 50px;
   border-radius: 50px;
   margin-top: 20px;
+  margin-right: 5vh;
   cursor: pointer;
 }
 .fontSize {
@@ -75,16 +76,16 @@ button {
 /*---------header-------------*/
 header {
   background-color: var(--headingColor);
-  height: 10vh;
-  line-height: 10vh;
+  height: 16vh;
+  line-height: 20vh;
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 50;
 }
 header a {
-  margin-left: 40px;
+  margin-left: 25px;
 }
 .toggle {
   cursor: pointer;
@@ -136,6 +137,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 999;
 }
 
 .backshadow .custom-modal{
@@ -222,7 +224,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh; /* Ajusta la altura como desees */
+  height: auto;
+  height: 60vh; 
 }
 
 
@@ -251,6 +254,7 @@ section {
   place-items: center;
   text-align: center;
 }
+
 
 /*---------counter-------------*/
 .counter {

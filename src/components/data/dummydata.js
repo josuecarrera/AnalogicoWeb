@@ -7,11 +7,11 @@ export const navlink = [
   },
   {
     url: "/about",
-    text: "About",
+    text: "Capitulo Uno",
   },
   {
     url: "/services",
-    text: "Services",
+    text: "Capitulo Dos",
   },
   {
     url: "/portfolio",
@@ -47,10 +47,111 @@ export const about = [
     desc3: "En la era de la información en la que vivimos, son muy comunes los términos analógico y digital, en poco tiempo, poco a poco se ha ido abandonando el uso de sistemas analógicos para dar paso a componentes y tecnologías digitales. Con el desarrollo de los ordenadores y la demanda de una comunicación más rápida comienza la era de la comunicación. Con la generalización del uso de los ordenadores y el uso de Internet se desarrollan sistemas de comunicación entre usuarios, como los e-mails y los chats.",
     desc4: "Convertidor A/D",
     desc6: "El medio de transmisión constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Se Distinguen dos tipos de medios: guiados y no guiados. En ambos casos la transmisión se realiza por medio de ondas electromagnéticas. Los medios guiados conducen (guían) las ondas a través de un camino físico, ejemplos de estos medios son el cable coaxial, la fibra óptica y el par trenzado. Los medios no guiados proporcionan un soporte para que las ondas se transmitan, pero no las dirigen; como ejemplo de ellos son el aire y el vacío",
+    desc7: "Este consiste en dos alambres de cobre aislados, en general de 1mm de espesor. Los alambres se entrelazan en forma helicoidal, como en una molécula de DNA. La forma trenzada del cable se utiliza para reducir la interferencia eléctrica con respecto a los pares cercanos que se encuentran a su alrededor. Los pares trenzados se pueden utilizar tanto paratransmisión analógica como digital, y su ancho de banda depende del calibre del alambre yde la distancia que recorre; en muchos casos pueden obtenerse transmisiones de varios megabits, en distancias de pocos kilómetros",
+    desc8: "Es un cable de transmisión de datos que se compone de dos conductores que se orientan de forma coaxial y separados por una capa de aislamiento dieléctrico. La estructura de un cable coaxial típico se basaría en un núcleo compuesto de un alambre de metal rodeado por un aislante llamado dieléctrico. Dicho aislamiento está protegido por una malla metálica (lámina o trenza) y todo el cable entero está envuelto en una cubierta externa protectora, resguardando así el cable de la humedad. ",
+    desc9: "Estas bandas cubren aproximadamente desde 55 a 550 Mhz. Son también omnidireccionales, pero a diferencia de las anteriores la ionosfera es transparente a ellas. Su alcance máximo es de un centenar de kilómetros, y las velocidades que permite del orden de los 9600 bps. Su aplicación suele estar relacionada con los radioaficionados y con equipos de comunicación militares, también la televisión y los aviones.",
+    desc10: "Además de su aplicación en hornos, las microondas permiten transmisiones tanto terrestres como con satélites. Dada sus frecuencias, del orden de 1 a 10 Ghz, las microondas son muy direccionales y sólo se pueden emplear en situaciones en que existe una línea visual que une emisor y receptor. Los enlaces de microondas permiten grandes velocidades de transmisión, del orden de 10 Mbps.",
+    desc11: `En el otro lado de la balanza las señales digitales, que se usan de una forma más frecuente debido a su flexibilidad y polivalencia. La información no se transmite de la misma forma, sino que en este caso se utiliza un sistema de códigos binarios (los números 0 y 1) con los que se lleva a cabo la transmisión bajo una pareja de amplitudes que proporciona grandes posibilidades.`,
+    desc12: `El proceso del que se habla con las ondas senoidales en las señales analógicas cambia de forma completa para dar paso a ondas cuadradas, lo que permite hacer uso de la modulación digital y de un tipo de señal que no es continua Las muchas opciones que proporcionan las señales digitales, la facilidad que hay para
+    transmitir información con ella y la manera en la cual se pueden usar sin pérdida de
+    información, han hecho que se impongan en el mercado. Y aunque, las señales analógicas
+    aún se usan en algunos contextos, es más frecuente que se opte por las digitales incluso
+    teniendo en cuenta que sus costes son más altos. Al fin y al cabo, el sector tecnológico ha
+    visto que, en este sentido, en la transmisión de información, era más importante contar con
+    una señal eficiente que con una económica. Y esto es algo que también esta aplicado al sector
+    de los dispositivos móviles cada vez que se los utiliza.`,
+    desc13: `Las medidas físicas se utilizan cuando se habla de utilizar señales analógicas, que son
+    especialmente usadas para llevar a cabo la transmisión de elementos de vídeo o sonido.
+    Aunque son señales de tipo continuo hay que decir que su expansión se produce por la entrada
+    en escena de las ondas de tipo senoidal. Para que las distintas señales analógicas que se
+    transmitan puedan ser interpretadas de una manera adecuada habrá que tener un
+    decodificador que permita cumplir con el proceso de trabajo. Una de las ventajas del uso de
+    la señal analógica es que hay poco consumo de ancho de banda, mientras que por otro lado
+    es un tipo de acción que se procesa en tiempo real.`,
+    desc14: `Hay menores necesidades en términos de inversión y la calidad suele ser más fiel a la
+    realidad, Pero también tiene sus desventajas. La principal es lo complicado que resulta
+    solucionar una transmisión fallida en comparación a si estuviera usando una señal digital.`,
+    desc15: `Alto costo de generación de potencia en el espacio y enormes distancias de transmisión. Se
+    requiere eficiencia en el uso de energía.`,
+    desc16: `Bajo costo en la potencia, pero ancho de banda limitado por las regulaciones. Se requiere
+    eficiencia en el uso del ancho de banda`,
+    desc17: `Aumento del costo con la potencia (impacto en el tamaño y la duración de las baterías)
+    además está limitado el ancho de banda. Se requiere a la vez eficiencia en la energía y en el
+    ancho de banda`,
+    desc18: `La Comunicación es la transferencia de información con sentido desde un lugar (remitente,
+      origen, fuente, transmisor) a otro lugar (destino, receptor). Por otra parte, Información es un
+      patrón físico al cual se le ha asignado un significado comúnmente acordado. El patrón debe
+      ser único (separado y distinto), capaz de ser enviado por el transmisor, y capaz de ser
+      detectado y entendido por el receptor.`,
+    desc19: `Si la información es intercambiada entre comunicadores humanos, por lo general se transmite
+    en forma de sonido, luz o patrones de textura en forma tal que pueda ser detectada por los
+    sentidos primarios del oído, vista y tacto. El receptor asumirá que no se está comunicando
+    información si no se reciben patrones reconocibles. En la siguiente figura se muestra un diagrama a bloques del modelo básico de un sistema de
+    comunicaciones, en éste se muestran los principales componentes que permiten la
+    comunicación`,
+    desc20: `En toda comunicación existen tres elementos básicos (imprescindibles uno del otro) en un
+    sistema de comunicación: el transmisor, el canal de transmisión y el receptor. Cada uno tiene
+    una función característica`,
+    desc21: `Pasa el mensaje al canal en forma de señal. Para lograr una transmisión
+    eficiente y efectiva, se deben desarrollar varias operaciones de procesamiento de la
+    señal. La más común e importante es la modulación, un proceso que se distingue por
+    el acoplamiento de la señal transmitida a las propiedades del canal, por medio de una
+    onda portadora.`,
+    desc22: `De Transmisión o medio es el enlace eléctrico entre el transmisor y el
+    receptor, siendo el puente de unión entre la fuente y el destino. Este medio puede ser
+    un par de alambres, un cable coaxial, el aire, etc. Pero sin importar el tipo, todos los
+    medios de transmisión se caracterizan por la atenuación, la disminución progresiva
+    de la potencia de la señal conforme aumenta la distancia.`,
+    desc23: `Es extraer del canal la señal deseada y entregarla al transductor de salida.
+    Como las señales son frecuentemente muy débiles, comoresultado de la atenuación,
+    el receptor debe tener varias etapas de amplificación. En todo caso, la operación clave
+    que ejecuta el receptor es la demodulación, el caso inverso del proceso de modulación
+    del transmisor, con lo cual vuelve la señal a su forma original`,
+    desc24: `Información que se pretende llegue del emisor al receptor por medio de
+    un sistema de comunicación. Puede ser en formas como ser texto, número, audio,
+    gráficos, etc. Este también puede ser de forma verbal o no verbal.`,
+    desc25: `El oscilador del puente de Wien es un oscilador RC no sintonizador de corrimiento de fase que usa 
+    retroalimentación positiva o negativa.`,
+
+    desc26: `Donde la frecuencia de operación es de 𝑓0 = 1/2𝜋𝑅C`,
+
+    desc27: `Características:`,
+    desc28: `✓ Oscilador desplazador de fase`,
+    desc29: `✓ Utiliza retroalimentación
+    `,
+    desc30: `✓ Baja frecuencia
+    `,
+    desc31: `✓ 5 Khz – 1 Mhz
+    `,
+    desc32: `✓ Generadores de señal
+    `,
+
+    desc33: `Los osciladores LC son circuitos osciladores que usan tanque LC para establecer la frecuencia. El 
+    funcionamiento de un circuito tanque implica el intercambio de energía cinética y potencial.
+    La frecuencia de funcionamiento de un circuito tanque LC no es más que la frecuencia de 
+    resonancia de la red LC y se tiene:`,
+
+    desc34: `La figura 2-5 a, se muestra el diagrama esquemático de un oscilador Hartley. El amplificador 
+    transistorizado (Q1) proporciona la amplificación necesaria para una ganancia de voltaje de lazo 
+    unitaria a frecuencia de resonancia. El capacitor de acoplamiento (Cc) proporciona la ruta para la 
+    retroalimentación regenerativa. L1 y C1 , son los componentes que determinan la frecuencia, y Vcc 
+    es la fuente de voltaje de c.c. La figura 2-5b muestra el circuito equivalente en c.c. para el oscilador 
+    Hartley. Cc es un capacitor de bloqueo que aísla el voltaje de polarización de base de c.c. y evita 
+    que haga un corto a tierra a través de L1b. C2 también es un capacitor de bloqueo para evitar que 
+    la fuente de voltaje del colector haga corto a tierra a través de L1a.`,
+    desc35: ``,
     cover: "./images/LineaDeTiempo.png",
     cover1: "./images/ConvertidorAD.png",
     cover2: "./images/ElementosCom.png",
     cover3: "./images/MediosTransmision.png",
+    cover4: "./images/paresTrensados.png",
+    cover5: "./images/CableCoaxial.png",
+    cover6: "./images/RadioEnlace.png",
+    cover7: "./images/microondas.png",
+    cover8: "./images/SenialDigAna.png",
+    cover9: "./images/AmplitudTiempo.png",
+    cover10: "./images/basicosistema.png",
+    cover11:`./images/captwo/puentewein.png`
   },
 ]
 export const services = [

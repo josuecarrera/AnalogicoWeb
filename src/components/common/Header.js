@@ -1,7 +1,7 @@
 import React from "react";
 import { Menu } from "@mui/icons-material"
 import { Link } from "react-router-dom";
-import logo from "../data/images/logo.png";
+import logo from "../data/images/sistemas.png";
 import { navlink } from "../data/dummydata";
 import { useState } from "react";
 export const Header = () => {

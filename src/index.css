@@ -8,14 +8,15 @@
 
 .backshadow{
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(209, 41, 41, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .backshadow .custom-modal{
@@ -23,6 +24,7 @@
   height: 600px;
   background-color: #fff;
   position: relative;
+  
 }
 
 .delete-icon{
