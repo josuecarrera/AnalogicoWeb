@@ -1,29 +1,27 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
+import React from 'react'
 
 export const NavBar = () => {
-    return (
-        <Navbar expand="md" >
-        <Container>
-          <Navbar.Brand href="/">
-        
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toggler-icon"></span>
-          </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-          
-            </Nav>
-            <span className="navbar-text">
-              <div className="social-icon">
-               
-              </div>
+  const Menu = ['Profile', 'Your apps', 'Setting', 'Logout'];
 
-              <button className="vvd"><span>Let’s Connect</span></button>
-            
-            </span>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    )
+  const Button = ({ text }) => {
+    return (
+      <button>{text}</button>
+    );
+  };
+  return (
+    <div>
+      <div className="bg-white">
+      <nav>
+      <ul>
+        {
+          Menu.map((menu) => (
+            <li key={menu}>{menu}</li>
+          ))
+        }
+      </ul>
+      <Button text="Iniciar sesión" />
+    </nav>
+      </div>
+    </div>
+  )
 }

@@ -76,8 +76,8 @@ button {
 /*---------header-------------*/
 header {
   background-color: var(--headingColor);
-  height: 16vh;
-  line-height: 20vh;
+  height: 18vh;
+  line-height: 15vh;
   position: sticky;
   top: 0;
   left: 0;

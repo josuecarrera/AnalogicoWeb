@@ -9,7 +9,7 @@ export const BringPdf = () => {
   const [resume, setResume] = useState(null);
 
   useEffect(() => {
-    getDownloadURL(ref(storage, "Capitulo_1info.pdf")).then((url) => {
+    getDownloadURL(ref(storage, "Capitulo_2info.pdf")).then((url) => {
       setResume(url);
     });
   }, []);

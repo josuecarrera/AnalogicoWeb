@@ -1,4 +1,22 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import {
+  Settings,
+  CropRotate,
+  ViewInAr,
+  PieChart,
+  Code,
+  BarChart,
+  CloudOutlined,
+  FavoriteBorder,
+  Public,
+  PersonOutlined,
+  AddLocationAltOutlined,
+  PhoneIphone,
+  EmailOutlined,
+  Facebook,
+  Twitter,
+  Instagram,
+  YouTube,
+} from "@mui/icons-material";
 
 export const navlink = [
   {
@@ -8,6 +26,11 @@ export const navlink = [
   {
     url: "/about",
     text: "Capitulo Uno",
+    submenu: [
+      {
+        title: "Web desing",
+      },
+    ],
   },
   {
     url: "/services",
@@ -29,7 +52,7 @@ export const navlink = [
     url: "/contact",
     text: "Simulador",
   },
-]
+];
 export const home = [
   {
     text: "BIENVENIDOS",
@@ -38,19 +61,25 @@ export const home = [
     design: "SEXTO / A",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
   },
-]
+];
 export const about = [
   {
     desc: "Las telecomunicaciones han sufrido un gran cambio desde el siglo 19. Las comunicaciones apropiadas surgieron con la llegada del telégrafo en 1833. Un gran paso adelante en el establecimiento de comunicación entre personas a largas distancias. El telégrafo y el correo postal se convirtieron más tarde en los dos medios por los cuales las personas mantienen contacto entre sí a distancia. El sistema es lento y puede tardar días o semanas en estar disponibles las noticias. [1]",
     desc1: "Línea de tiempo",
     desc2: "Ilustración 1 Historia de las telecomunicaciones",
-    desc3: "En la era de la información en la que vivimos, son muy comunes los términos analógico y digital, en poco tiempo, poco a poco se ha ido abandonando el uso de sistemas analógicos para dar paso a componentes y tecnologías digitales. Con el desarrollo de los ordenadores y la demanda de una comunicación más rápida comienza la era de la comunicación. Con la generalización del uso de los ordenadores y el uso de Internet se desarrollan sistemas de comunicación entre usuarios, como los e-mails y los chats.",
+    desc3:
+      "En la era de la información en la que vivimos, son muy comunes los términos analógico y digital, en poco tiempo, poco a poco se ha ido abandonando el uso de sistemas analógicos para dar paso a componentes y tecnologías digitales. Con el desarrollo de los ordenadores y la demanda de una comunicación más rápida comienza la era de la comunicación. Con la generalización del uso de los ordenadores y el uso de Internet se desarrollan sistemas de comunicación entre usuarios, como los e-mails y los chats.",
     desc4: "Convertidor A/D",
-    desc6: "El medio de transmisión constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Se Distinguen dos tipos de medios: guiados y no guiados. En ambos casos la transmisión se realiza por medio de ondas electromagnéticas. Los medios guiados conducen (guían) las ondas a través de un camino físico, ejemplos de estos medios son el cable coaxial, la fibra óptica y el par trenzado. Los medios no guiados proporcionan un soporte para que las ondas se transmitan, pero no las dirigen; como ejemplo de ellos son el aire y el vacío",
-    desc7: "Este consiste en dos alambres de cobre aislados, en general de 1mm de espesor. Los alambres se entrelazan en forma helicoidal, como en una molécula de DNA. La forma trenzada del cable se utiliza para reducir la interferencia eléctrica con respecto a los pares cercanos que se encuentran a su alrededor. Los pares trenzados se pueden utilizar tanto paratransmisión analógica como digital, y su ancho de banda depende del calibre del alambre yde la distancia que recorre; en muchos casos pueden obtenerse transmisiones de varios megabits, en distancias de pocos kilómetros",
-    desc8: "Es un cable de transmisión de datos que se compone de dos conductores que se orientan de forma coaxial y separados por una capa de aislamiento dieléctrico. La estructura de un cable coaxial típico se basaría en un núcleo compuesto de un alambre de metal rodeado por un aislante llamado dieléctrico. Dicho aislamiento está protegido por una malla metálica (lámina o trenza) y todo el cable entero está envuelto en una cubierta externa protectora, resguardando así el cable de la humedad. ",
-    desc9: "Estas bandas cubren aproximadamente desde 55 a 550 Mhz. Son también omnidireccionales, pero a diferencia de las anteriores la ionosfera es transparente a ellas. Su alcance máximo es de un centenar de kilómetros, y las velocidades que permite del orden de los 9600 bps. Su aplicación suele estar relacionada con los radioaficionados y con equipos de comunicación militares, también la televisión y los aviones.",
-    desc10: "Además de su aplicación en hornos, las microondas permiten transmisiones tanto terrestres como con satélites. Dada sus frecuencias, del orden de 1 a 10 Ghz, las microondas son muy direccionales y sólo se pueden emplear en situaciones en que existe una línea visual que une emisor y receptor. Los enlaces de microondas permiten grandes velocidades de transmisión, del orden de 10 Mbps.",
+    desc6:
+      "El medio de transmisión constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Se Distinguen dos tipos de medios: guiados y no guiados. En ambos casos la transmisión se realiza por medio de ondas electromagnéticas. Los medios guiados conducen (guían) las ondas a través de un camino físico, ejemplos de estos medios son el cable coaxial, la fibra óptica y el par trenzado. Los medios no guiados proporcionan un soporte para que las ondas se transmitan, pero no las dirigen; como ejemplo de ellos son el aire y el vacío",
+    desc7:
+      "Este consiste en dos alambres de cobre aislados, en general de 1mm de espesor. Los alambres se entrelazan en forma helicoidal, como en una molécula de DNA. La forma trenzada del cable se utiliza para reducir la interferencia eléctrica con respecto a los pares cercanos que se encuentran a su alrededor. Los pares trenzados se pueden utilizar tanto paratransmisión analógica como digital, y su ancho de banda depende del calibre del alambre yde la distancia que recorre; en muchos casos pueden obtenerse transmisiones de varios megabits, en distancias de pocos kilómetros",
+    desc8:
+      "Es un cable de transmisión de datos que se compone de dos conductores que se orientan de forma coaxial y separados por una capa de aislamiento dieléctrico. La estructura de un cable coaxial típico se basaría en un núcleo compuesto de un alambre de metal rodeado por un aislante llamado dieléctrico. Dicho aislamiento está protegido por una malla metálica (lámina o trenza) y todo el cable entero está envuelto en una cubierta externa protectora, resguardando así el cable de la humedad. ",
+    desc9:
+      "Estas bandas cubren aproximadamente desde 55 a 550 Mhz. Son también omnidireccionales, pero a diferencia de las anteriores la ionosfera es transparente a ellas. Su alcance máximo es de un centenar de kilómetros, y las velocidades que permite del orden de los 9600 bps. Su aplicación suele estar relacionada con los radioaficionados y con equipos de comunicación militares, también la televisión y los aviones.",
+    desc10:
+      "Además de su aplicación en hornos, las microondas permiten transmisiones tanto terrestres como con satélites. Dada sus frecuencias, del orden de 1 a 10 Ghz, las microondas son muy direccionales y sólo se pueden emplear en situaciones en que existe una línea visual que une emisor y receptor. Los enlaces de microondas permiten grandes velocidades de transmisión, del orden de 10 Mbps.",
     desc11: `En el otro lado de la balanza las señales digitales, que se usan de una forma más frecuente debido a su flexibilidad y polivalencia. La información no se transmite de la misma forma, sino que en este caso se utiliza un sistema de códigos binarios (los números 0 y 1) con los que se lleva a cabo la transmisión bajo una pareja de amplitudes que proporciona grandes posibilidades.`,
     desc12: `El proceso del que se habla con las ondas senoidales en las señales analógicas cambia de forma completa para dar paso a ondas cuadradas, lo que permite hacer uso de la modulación digital y de un tipo de señal que no es continua Las muchas opciones que proporcionan las señales digitales, la facilidad que hay para
     transmitir información con ella y la manera en la cual se pueden usar sin pérdida de
@@ -110,36 +139,52 @@ export const about = [
     desc24: `Información que se pretende llegue del emisor al receptor por medio de
     un sistema de comunicación. Puede ser en formas como ser texto, número, audio,
     gráficos, etc. Este también puede ser de forma verbal o no verbal.`,
-    desc25: `El oscilador del puente de Wien es un oscilador RC no sintonizador de corrimiento de fase que usa 
-    retroalimentación positiva o negativa.`,
+    desc25: `Se conoce con el nombre de oscilador a todo circuito que, partiendo de una fuente de 
+    alimentación continua, es capaz de proporcionar una salida de corriente alterna, 
+    independientemente de su forma de onda. Es posible, pues, encontrar osciladores de onda senoidal, onda cuadrada, diente de sierra, etc. Tradicionalmente, sin embargo, se reserva 
+    el nombre de osciladores a aquellos cuya salida es una senoide, recibiendo el resto 
+    nombres especiales. (Bolaños, 2018)`,
+    desc26: `La función de un generador de señal es producir una señal dependiente del tiempo con unas características determinadas de frecuencia, amplitud y forma. Algunas veces estas 
+    características son externamente controladas a través de señales de control; el oscilador 
+    controlado por tensión (voltage-controlled oscillator o VCO) es un claro ejemplo. Para ejecutar la función de los generadores de señal se emplea algún tipo de realimentación 
+    conjuntamente con dispositivos que tengan características dependientes del tiempo (normalmente condensadores). Hay dos categorías de generadores de señal: osciladores 
+    sintonizados o sinusoidales y osciladores de relajación.`,
+    desc27: `Oscilador es un circuito que genera una señal periódica, es decir, que produce una señal periódica a la salida sin tener ninguna entrada periódica. Los osciladores se clasifican en armónicos, cuando la salida es sinusoidal, o de relajación, si generan una onda cuadrada`,
+    desc28: `Un oscilador a cristal es un oscilador armónico cuya frecuencia está determinada por un 
+    cristal de cuarzo o una cerámica piezoeléctrica. Los sistemas de comunicación suelen 
+    emplean osciladores armónicos, normalmente controlados por cristal, como oscilador de 
+    referencia. Pero también osciladores de frecuencia variable. La frecuencia se puede 
+    ajustar mecánicamente (condensadores o bobinas de valor ajustable) o aplicando tensión 
+    a un elemento, estos últimos se conocen como osciladores controlados por tensión o VCO, 
+    es decir, osciladores cuya frecuencia de oscilación depende del valor de una tensión de 
+    control. Y también es posible hallar osciladores a cristal controlados por tensión`,
+    desc29: `Un oscilador retroalimentado es un amplificador con un lazo de retroalimentación, es 
+    decir, con un paso para que la energía se propague desde la salida y regrese a la entrada. 
+    Los osciladores autosostenidos (o monoestables) son osciladores retroalimentados. Una 
+    vez encendido, un oscilador retroalimentado genera una señal de salida de ca, de la cual 
+    se regresa una pequeña parte a la entrada, donde se amplifica. La señal amplificada de la 
+    entrada aparece en la salida, y el proceso se repite; se produce un proceso regenerativo, 
+    en el que la salida depende de la entrada y viceversa. De acuerdo con el criterio de 
+    Barkhausen, para que un circuito retroalimentado sostenga oscilaciones, la ganancia neta 
+    de voltaje en torno al lazo de retroalimentación debe ser igual o mayor que la unidad, y 
+    el desplazamiento neto de fase en torno al lazo debe ser un múltiplo entero positivo de 
+    360°`,
+    desc30: ``,
+    desc31: ``,
+    desc32: ``,
 
-    desc26: `Donde la frecuencia de operación es de 𝑓0 = 1/2𝜋𝑅C`,
+    desc33: ``,
 
-    desc27: `Características:`,
-    desc28: `✓ Oscilador desplazador de fase`,
-    desc29: `✓ Utiliza retroalimentación
-    `,
-    desc30: `✓ Baja frecuencia
-    `,
-    desc31: `✓ 5 Khz – 1 Mhz
-    `,
-    desc32: `✓ Generadores de señal
-    `,
-
-    desc33: `Los osciladores LC son circuitos osciladores que usan tanque LC para establecer la frecuencia. El 
-    funcionamiento de un circuito tanque implica el intercambio de energía cinética y potencial.
-    La frecuencia de funcionamiento de un circuito tanque LC no es más que la frecuencia de 
-    resonancia de la red LC y se tiene:`,
-
-    desc34: `La figura 2-5 a, se muestra el diagrama esquemático de un oscilador Hartley. El amplificador 
-    transistorizado (Q1) proporciona la amplificación necesaria para una ganancia de voltaje de lazo 
-    unitaria a frecuencia de resonancia. El capacitor de acoplamiento (Cc) proporciona la ruta para la 
-    retroalimentación regenerativa. L1 y C1 , son los componentes que determinan la frecuencia, y Vcc 
-    es la fuente de voltaje de c.c. La figura 2-5b muestra el circuito equivalente en c.c. para el oscilador 
-    Hartley. Cc es un capacitor de bloqueo que aísla el voltaje de polarización de base de c.c. y evita 
-    que haga un corto a tierra a través de L1b. C2 también es un capacitor de bloqueo para evitar que 
-    la fuente de voltaje del colector haga corto a tierra a través de L1a.`,
+    desc34: ``,
     desc35: ``,
+    desc36: ``,
+    desc37: ``,
+    desc38: ``,
+    desc39: ``,
+    desc40: ``,
+    desc42: ``,
+    desc43: ``,
+    desc44: ``,
     cover: "./images/LineaDeTiempo.png",
     cover1: "./images/ConvertidorAD.png",
     cover2: "./images/ElementosCom.png",
@@ -151,9 +196,11 @@ export const about = [
     cover8: "./images/SenialDigAna.png",
     cover9: "./images/AmplitudTiempo.png",
     cover10: "./images/basicosistema.png",
-    cover11:`./images/captwo/puentewein.png`
+    cover11: `./images/captwo/puentewein.png`,
+    cover12: `./images/captwo/oscilador.png`,
+    cover13: `./images/captwo/osciladorRetroalimentado.png`,
   },
-]
+];
 export const services = [
   {
     id: 1,
@@ -191,7 +238,7 @@ export const services = [
     title: "OSCILADOR COLPITTS ",
     desc: "El oscilador Colpitts es un tipo de oscilador LC que cae bajo la categoría de oscilador armónico y fue inventado por Edwin Colpitts en 1918. La figura 1 muestra un oscilador típico de Colpitts con un circuito de tanque en el que un inductor L está conectado en paralelo a la combinación en serie de los condensadores C1 y C2",
   },
-]
+];
 export const project = [
   {
     id: 1,
@@ -217,7 +264,7 @@ export const project = [
     num: "1446",
     title: "LIENS OF CODE",
   },
-]
+];
 export const portfolio = [
   {
     id: 1,
@@ -261,7 +308,7 @@ export const portfolio = [
     category: "Tipos de Modulación",
     title: "Detector por resistencia de rejilla",
   },
-]
+];
 export const testimonials = [
   {
     id: 1,
@@ -284,7 +331,7 @@ export const testimonials = [
     name: "GorkCoder",
     post: "Moduladores y demoduladores de fase y de frecuencia",
   },
-]
+];
 export const blog = [
   {
     id: 1,
@@ -298,7 +345,7 @@ export const blog = [
     id: 3,
     video: "https://www.youtube.com/watch?v=xCDp5xg1Oac",
   },
-]
+];
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
@@ -315,7 +362,7 @@ export const contact = [
     text1: "hello@thetheme.io",
     text2: "inf0@brex-theme.io",
   },
-]
+];
 export const social = [
   {
     icon: <Facebook />,
@@ -329,4 +376,4 @@ export const social = [
   {
     icon: <YouTube />,
   },
-]
+];
