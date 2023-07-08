@@ -1,9 +1,18 @@
 import React from "react";
+import { saveAs } from "file-saver";
 import { Heading } from "../common/Heading";
 import { about } from "../data/dummydata";
 import { BringPdf } from "../DataPDFOne/BringPdf";
 
+
 export const About = () => {
+  const handleDownload = () => {
+    const fileUrl = `${process.env.PUBLIC_URL}/documents/Capitulo_1info.docx`;
+
+    saveAs(fileUrl, 'Capitulo1.docx');
+
+  }
+
   return (
     <>
       {/* Seccion 1 */}
@@ -12,11 +21,11 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-              <Heading title="CAPITULO 1" />
+                <Heading title="CAPITULO 1" />
                 <Heading title="INTRODUCCIÓN A LOS SISTEMAS DE COMUNICACIONES ELECTRÓNICAS" />
                 <p>{val.desc}</p>
                 <BringPdf />
-                <button>Download CV</button>
+                <button onClick={handleDownload}>Download Word</button>
                 <button className="primaryBtn">More Information</button>
               </div>
             </>
@@ -61,7 +70,7 @@ export const About = () => {
         <div className="container flex">
           {about.map((val) => (
             <>
-                <Heading title="ELEMENTOS DE UN SISTEMA DE COMUNICACIÓN" />
+              <Heading title="ELEMENTOS DE UN SISTEMA DE COMUNICACIÓN" />
               <div className="left" data-aos="fade-down-left">
                 {/* <p>{val.desc}</p>
                 <h2>{val.desc1}</h2> */}
@@ -268,15 +277,15 @@ export const About = () => {
         </div>
       </section>
 
- {/* Seccion 13 */}
- <section className="about">
+      {/* Seccion 13 */}
+      <section className="about">
         <div className="container flex">
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="MODELO BÁSICO DE TELECOMUNICACIONES" />
-                <Heading title="Sistema básico de comunicación"/>
-                <Heading title="Modelo de un Sistema de Comunicaciones:"/>
+                <Heading title="Sistema básico de comunicación" />
+                <Heading title="Modelo de un Sistema de Comunicaciones:" />
                 <h2>{val.desc18}</h2>
                 <h2>{val.desc19}</h2>
                 <div className="img-container" data-aos="fade-down-right">
@@ -288,9 +297,12 @@ export const About = () => {
         </div>
       </section>
 
-       {/* Seccion 14 */}
-    
- <section className="about">
+      <section className="about">
+      </section>
+
+      {/* Seccion 14 */}
+
+      <section className="about">
         <div className="container flex">
           {about.map((val) => (
             <>
@@ -298,13 +310,13 @@ export const About = () => {
                 <Heading title="ELEMENTOS DEL SISTEMA" />
                 <h2>{val.desc20}</h2>
 
-                <Heading title="El Transmisor"/>
+                <Heading title="El Transmisor" />
                 <p>{val.desc21}</p>
-                <Heading title="El Canal"/>
+                <Heading title="El Canal" />
                 <p>{val.desc22}</p>
-                <Heading title="Receptor"/>
+                <Heading title="Receptor" />
                 <p>{val.desc23}</p>
-                <Heading title="El Mensaje"/>
+                <Heading title="El Mensaje" />
                 <p>{val.desc24}</p>
                 {/* <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover10} alt="" />
@@ -314,7 +326,6 @@ export const About = () => {
           ))}
         </div>
       </section>
-      
     </>
   );
 };

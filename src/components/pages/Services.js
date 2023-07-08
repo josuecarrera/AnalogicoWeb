@@ -1,9 +1,17 @@
 import React from "react";
+import { saveAs } from "file-saver";
 import { Heading } from "../common/Heading";
 import { about, services } from "../data/dummydata";
 import { BringPdfTwo } from "../DataPDFTwo/BringPdfTwo";
 
 export const Services = () => {
+  const handleDownload = () => {
+    const fileUrl = `${process.env.PUBLIC_URL}/documents/Capitulo_2info.docx`;
+
+    saveAs(fileUrl, 'Capitulo2.docx');
+
+  }
+
   return (
     <>
       <Heading title="CAPITULO 2" />
@@ -20,7 +28,13 @@ export const Services = () => {
             ))}
           </div>
           <BringPdfTwo />
+          <button onClick={handleDownload}>Download CV</button>
+          <button className="primaryBtn">More Information</button>
         </div>
+      </section>
+      
+      <section>
+        {/* <div className="container flex"></div> */}
       </section>
 
       {/* Seccion 1 */}
@@ -33,7 +47,7 @@ export const Services = () => {
                 <Heading title=" INTRODUCCIÓN" />
                 <p>{val.desc25}</p>
                 <p>{val.desc26}</p>
-               
+
                 {/* <BringPdf />
                 <button>Download CV</button>
               <button className="primaryBtn">More Information</button> */}
@@ -45,8 +59,6 @@ export const Services = () => {
           ))}
         </div>
       </section>
-
-  
 
       {/* Seccion 2 */}
 
@@ -61,7 +73,7 @@ export const Services = () => {
                 {/* <BringPdf />
                 <button>Download CV</button>
                 <button className="primaryBtn">More Information</button> */}
-                
+
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover12} alt="" />
                 </div>
@@ -90,7 +102,6 @@ export const Services = () => {
           ))}
         </div>
       </section>
-      
     </>
   );
 };
