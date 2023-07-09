@@ -7,7 +7,7 @@ export const Blog = () => {
     <>
       <section className="blog">
         <div className="container">
-          <Heading title="Blog" />
+          <Heading title="Videos" />
           <div className="content grid3">
             {blog.map((item) => (
               <div className="box" data-aos="flip-left" key={item.id}>

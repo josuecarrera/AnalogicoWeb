@@ -3,6 +3,7 @@ import { saveAs } from "file-saver";
 import { Heading } from "../common/Heading";
 import { about, services } from "../data/dummydata";
 import { BringPdfTwo } from "../DataPDFTwo/BringPdfTwo";
+import { Blog } from "./Blog";
 
 export const Services = () => {
   const handleDownload = () => {
@@ -35,6 +36,7 @@ export const Services = () => {
       
       <section>
         {/* <div className="container flex"></div> */}
+        <Blog/>
       </section>
 
       {/* Seccion 1 */}

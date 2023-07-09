@@ -38,7 +38,7 @@ export const navlink = [
   },
   {
     url: "/portfolio",
-    text: "Portfolio",
+    text: "Capitulo Tres",
   },
   {
     url: "/testimonials",
@@ -169,15 +169,15 @@ export const about = [
     de voltaje en torno al lazo de retroalimentación debe ser igual o mayor que la unidad, y 
     el desplazamiento neto de fase en torno al lazo debe ser un múltiplo entero positivo de 
     360°`,
-    desc30: ``,
-    desc31: ``,
-    desc32: ``,
+    desc30: `Las señales de información deben ser transportadas entre un transmisor y un receptor sobre alguna forma de medio de transmisión. Sin embargo, las señales de información pocas veces encuentran una forma adecuada para la transmisión. la modulación se define como el proceso de transformar información de su forma original a una forma más adecuada para la transmisión. Demodulación es el proceso inverso. La modulación se realiza en el transmisor en un circuito llamado modulador. (Vega, 2018)`,
+    desc31: `Ilustración 1: Esquema básico de una transmisión en telecomunicaciones`,
+    desc32: `Modulación de amplitud (AM es el proceso de cambiar la amplitud de una portadora de frecuencia relativamente alta de acuerdo con la amplitud de la señal modulante (información). Las frecuencias que son lo suficientemente altas para radiarse de manera eficiente por una antena y propagase por el espacio libre se llaman comúnmente radiofrecuencias o simplemente RF. Con la modulación de amplitud, la información se imprime sobre la portadora en la forma de cambios de amplitud`,
 
-    desc33: ``,
+    desc33: `La modulación de amplitud es una forma de modulación relativamente barata y de baja calidad de modulación que se utiliza en la radiodifusión de señales de audio y vídeo. La banda de radiodifusión comercial AM abarca desde 535 a 1605 kHz. La radiodifusión comercial de tv se divide en tres bandas (dos de VHF y una de UHF). (Vega, 2018)`,
 
-    desc34: ``,
-    desc35: ``,
-    desc36: ``,
+    desc34: `Modulación AM DSB o Convencional`,
+    desc35: `La onda modulada de salida contiene todas las frecuencias que compone la señal AM y se utiliza para llevar la información a través del sistema. A la forma de onda modulada se le denomina envolvente. Cuando se aplica una señal moduladora a una señal portadora, la onda de salida varía de acuerdo a la señal moduladora, en donde la envolvente de la onda modulada es exactamente igual a la señal moduladora AM. (Cruz, 2010)`,
+    desc36: `La señal portadora Vc y la señal moduladora Vm se representan mediante las siguientes ecuaciones: (Cruz, 2010)`,
     desc37: ``,
     desc38: ``,
     desc39: ``,
@@ -199,6 +199,11 @@ export const about = [
     cover11: `./images/captwo/puentewein.png`,
     cover12: `./images/captwo/oscilador.png`,
     cover13: `./images/captwo/osciladorRetroalimentado.png`,
+    cover14: `./images/capthree/ModulacionAmplitud.png`,
+    cover15: `./images/capthree/ModulacionAM.png`,
+    cover16: `./images/capthree/ecuacion1.png`,
+    cover17: `./images/capthree/tiposdemodulacion.png`,
+    
   },
 ];
 export const services = [
@@ -323,6 +328,27 @@ export const testimonials = [
     image: "./images/testimonials/team-2.png",
     name: "Alex Ander",
     post: "Modulación angular",
+  },
+  {
+    id: 3,
+    text: "Un modulador de fase es un circuito en el que se hace variar Ia portadora de tal modo que su fase instantánea es proporcional a Ia señal moduladora.",
+    image: "./images/testimonials/team-3.png",
+    name: "GorkCoder",
+    post: "Moduladores y demoduladores de fase y de frecuencia",
+  },
+  {
+    id: 3,
+    text: "Un modulador de fase es un circuito en el que se hace variar Ia portadora de tal modo que su fase instantánea es proporcional a Ia señal moduladora.",
+    image: "./images/testimonials/team-3.png",
+    name: "GorkCoder",
+    post: "Moduladores y demoduladores de fase y de frecuencia",
+  },
+  {
+    id: 3,
+    text: "Un modulador de fase es un circuito en el que se hace variar Ia portadora de tal modo que su fase instantánea es proporcional a Ia señal moduladora.",
+    image: "./images/testimonials/team-3.png",
+    name: "GorkCoder",
+    post: "Moduladores y demoduladores de fase y de frecuencia",
   },
   {
     id: 3,
