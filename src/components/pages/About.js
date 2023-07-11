@@ -30,9 +30,7 @@ export const About = () => {
               </div>
             </>
           ))}
-        </div>
-
-        <div className="">
+          <div className="">
           {about.map((val) => (
             <>
               <div className="right" data-aos="fade-down-right">
@@ -43,6 +41,9 @@ export const About = () => {
             </>
           ))}
         </div>
+        </div>
+
+        
       </section>
       {/* Seccion 2 */}
       <section className="about">
@@ -56,6 +57,9 @@ export const About = () => {
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover1} alt="" />
                 </div>
+                <div className="img-container" data-aos="fade-down-right">
+                  <img src={val.cover32} alt="" />
+                </div>
                 {/* <p>Ilustración 1 Historia de las telecomunicaciones</p> */}
 
                 {/* <button>Download CV</button> */}
@@ -65,19 +69,44 @@ export const About = () => {
           ))}
         </div>
       </section>
-      {/* Seccion 3 */}
+
+
+            {/* Seccion 3 */}
       <section className="about">
         <div className="container flex">
           {about.map((val) => (
             <>
-              <Heading title="ELEMENTOS DE UN SISTEMA DE COMUNICACIÓN" />
               <div className="left" data-aos="fade-down-left">
-                {/* <p>{val.desc}</p>
-                <h2>{val.desc1}</h2> */}
+                <Heading title="Características deseables de un Sistema de Comunicación" />
+                {/* <p>{val.desc8}</p> */}
+                {/* <h2>{val.desc1}</h2> */}
+                <div className="img-container" data-aos="fade-down-right">
+                  <img src={val.cover33} alt="" />
+                </div>
+                <p>Caracteristicas de un Sistema de Comunicación</p>
+                {/* <BringPdf/> */}
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">More Information</button> */}
+              </div>
+            </>
+          ))}
+        </div>
+      </section>
+
+        {/* Seccion 4 */}
+      <section className="about">
+        <div className="container flex">
+          {about.map((val) => (
+            <>
+              <div className="left" data-aos="fade-down-left">
+                <Heading title="ELEMENTOS DE UN SISTEMA DE COMUNICACIÓN" />
+                {/* <p>{val.desc3}</p>
+                <h2>{val.desc4}</h2> */}
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover2} alt="" />
                 </div>
                 <p>Ilustración 3 Elementos de un sistema de comunicacion</p>
+
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">Download CV</button> */}
               </div>
@@ -85,6 +114,7 @@ export const About = () => {
           ))}
         </div>
       </section>
+
 
       {/* Seccion 4 */}
 

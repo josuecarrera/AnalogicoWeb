@@ -4,13 +4,13 @@ import { saveAs } from "file-saver";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Heading } from "../common/Heading";
-import { BringPdf } from "../DataPDFOne/BringPdf";
+import { BringPdfFour } from "../DataPDFFour/BringPdfFour";
 
 export const Testimonials = () => {
   const handleDownload = () => {
-    const fileUrl = `${process.env.PUBLIC_URL}/documents/Capitulo_1info.docx`;
+    const fileUrl = `${process.env.PUBLIC_URL}/documents/Capitulo_4info.docx`;
 
-    saveAs(fileUrl, "Capitulo1.docx");
+    saveAs(fileUrl, "Capitulo4.docx");
   };
   return (
     <>
@@ -23,7 +23,7 @@ export const Testimonials = () => {
                 <Heading title="CAPITULO 4" />
                 <Heading title="1.	Modulación por frecuencia analógica (FM)" />
                 <p>{val.desc37}</p>
-                <BringPdf />
+                <BringPdfFour />
                 <button onClick={handleDownload}>Download Word</button>
                 <button className="primaryBtn">More Information</button>
               </div>

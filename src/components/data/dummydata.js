@@ -242,8 +242,12 @@ La frecuencia de la portadora oscila más o menos rápidamente, según la onda m
     cover29: `./images/capfour/transmisorCrosby.png`,
     cover30: `./images/capfour/estereofobico.png`,
     cover31: `./images/capfour/TransmirionArmstrong.png`,
-    cover32: `./images/capfour/.png`,
-    cover33: `./images/capfour/.png`,
+    cover32: `./images/DigAnal.png`,
+    cover33: `./images/CaracteristicasMedioTx.png`,
+    cover34: `./images/capfour/.png`,
+    cover35: `./images/capfour/.png`,
+    cover36: `./images/capfour/.png`,
+    cover37: `./images/capfour/.png`,
     
   },
 ];
