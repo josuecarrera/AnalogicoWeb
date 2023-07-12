@@ -12,6 +12,8 @@ export const Testimonials = () => {
 
     saveAs(fileUrl, "Capitulo4.docx");
   };
+
+  const url = "https://www.youtube.com/watch?v=RQ_Z6uMhLUo";
   return (
     <>
       {/* Seccion 1 */}
@@ -130,6 +132,21 @@ export const Testimonials = () => {
               </div>
             </>
           ))}
+        </div>
+      </section>
+
+      {/* VIDEO*/}
+      <section className="about">
+        <div className="container flex">
+          <div>
+            <Heading title="Video" />
+            <iframe
+              title="unique title"
+              src={`https://www.youtube.com/embed/${getYouTubeVideoId(url)}`}
+              width="900"
+              height="550"
+            ></iframe>
+          </div>
         </div>
       </section>
 
@@ -398,4 +415,13 @@ export const Testimonials = () => {
       </section>
     </>
   );
+};
+
+// Función auxiliar para obtener el ID del video de YouTube
+const getYouTubeVideoId = (videoUrl) => {
+  // Extrae el ID del video de la URL de YouTube
+  const regExp =
+    /^(?:(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?v=|https?:\/\/youtu\.be\/|www\.youtube\.com\/embed\/)([a-zA-Z0-9_-]{11})/;
+  const match = videoUrl.match(regExp);
+  return match && match[1];
 };

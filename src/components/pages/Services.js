@@ -11,6 +11,8 @@ export const Services = () => {
     saveAs(fileUrl, "Capitulo2.docx");
   };
 
+  const url = "https://www.youtube.com/watch?v=V6bl4VKcbKo";
+
   return (
     <>
       <Heading title="CAPITULO 2" />
@@ -75,30 +77,31 @@ export const Services = () => {
                 <button>Download CV</button>
                 <button className="primaryBtn">More Information</button> */}
 
-                <div className="img-container" data-aos="fade-down-right">
+                {/* <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover12} alt="" />
-                </div>
+                </div> */}
               </div>
             </>
           ))}
         </div>
       </section>
+
+      <section className="about">
+        <div className="container flex"></div>
+      </section>
+      {/* Seccion 3 */}
+
       <section className="about">
         <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                {/* <Heading title="OSCILADORES RETROALIMENTADOS" />
-                <p>{val.desc29}</p> */}
-                {/* <BringPdf />
-                <button>Download CV</button>
-                <button className="primaryBtn">More Information</button> */}
-                {/* <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover13} alt="" />
-                </div> */}
-              </div>
-            </>
-          ))}
+        <div>
+            <Heading title="Video" />
+            <iframe
+              title="unique title"
+              src={`https://www.youtube.com/embed/${getYouTubeVideoId(url)}`}
+              width="900"
+              height="550"
+            ></iframe>
+          </div>
         </div>
       </section>
       {/* Seccion 3 */}
@@ -123,4 +126,13 @@ export const Services = () => {
       </section>
     </>
   );
+};
+
+// Función auxiliar para obtener el ID del video de YouTube
+const getYouTubeVideoId = (videoUrl) => {
+  // Extrae el ID del video de la URL de YouTube
+  const regExp =
+    /^(?:(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?v=|https?:\/\/youtu\.be\/|www\.youtube\.com\/embed\/)([a-zA-Z0-9_-]{11})/;
+  const match = videoUrl.match(regExp);
+  return match && match[1];
 };

@@ -5,14 +5,14 @@ import { about } from "../data/dummydata";
 import { BringPdf } from "../DataPDFOne/BringPdf";
 import { PracticeGuide } from "../GuiaPracticas/PracticeGuide";
 
-
 export const About = () => {
   const handleDownload = () => {
     const fileUrl = `${process.env.PUBLIC_URL}/documents/Capitulo_1info.docx`;
 
-    saveAs(fileUrl, 'Capitulo1.docx');
+    saveAs(fileUrl, "Capitulo1.docx");
+  };
 
-  }
+  const url = "https://www.youtube.com/watch?v=HcTfsLz_p3Y";
 
   return (
     <>
@@ -32,19 +32,17 @@ export const About = () => {
             </>
           ))}
           <div className="">
-          {about.map((val) => (
-            <>
-              <div className="right" data-aos="fade-down-right">
-                <img src={val.cover} alt="" />
-                {/* <p>{val.desc1}</p> */}
-                <p>{val.desc2}</p>
-              </div>
-            </>
-          ))}
+            {about.map((val) => (
+              <>
+                <div className="right" data-aos="fade-down-right">
+                  <img src={val.cover} alt="" />
+                  {/* <p>{val.desc1}</p> */}
+                  <p>{val.desc2}</p>
+                </div>
+              </>
+            ))}
+          </div>
         </div>
-        </div>
-
-        
       </section>
       {/* Seccion 2 */}
       <section className="about">
@@ -71,8 +69,7 @@ export const About = () => {
         </div>
       </section>
 
-
-            {/* Seccion 3 */}
+      {/* Seccion 3 */}
       <section className="about">
         <div className="container flex">
           {about.map((val) => (
@@ -81,7 +78,9 @@ export const About = () => {
                 <Heading title="Características deseables de un Sistema de Comunicación" />
                 {/* <p>{val.desc8}</p> */}
                 {/* <h2>{val.desc1}</h2> */}
-                <p>Ilustracion 2: Caracteristicas de un Sistema de Comunicación</p>
+                <p>
+                  Ilustracion 2: Caracteristicas de un Sistema de Comunicación
+                </p>
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover33} alt="" />
                 </div>
@@ -94,7 +93,7 @@ export const About = () => {
         </div>
       </section>
 
-        {/* Seccion 4 */}
+      {/* Seccion 4 */}
       <section className="about">
         <div className="container flex">
           {about.map((val) => (
@@ -115,7 +114,6 @@ export const About = () => {
           ))}
         </div>
       </section>
-
 
       {/* Seccion 4 */}
 
@@ -140,6 +138,24 @@ export const About = () => {
               </div>
             </>
           ))}
+        </div>
+      </section>
+
+      <section className="about">
+        <div className="container flex"></div>
+      </section>
+
+      <section className="about">
+        <div className="container flex">
+          <div>
+            <Heading title="Video" />
+            <iframe
+              title="unique title"
+              src={`https://www.youtube.com/embed/${getYouTubeVideoId(url)}`}
+              width="900"
+              height="550"
+            ></iframe>
+          </div>
         </div>
       </section>
 
@@ -331,8 +347,7 @@ export const About = () => {
         </div>
       </section>
 
-      <section className="about">
-      </section>
+      <section className="about"></section>
 
       {/* Seccion 14 */}
 
@@ -362,4 +377,13 @@ export const About = () => {
       </section>
     </>
   );
+};
+
+// Función auxiliar para obtener el ID del video de YouTube
+const getYouTubeVideoId = (videoUrl) => {
+  // Extrae el ID del video de la URL de YouTube
+  const regExp =
+    /^(?:(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?v=|https?:\/\/youtu\.be\/|www\.youtube\.com\/embed\/)([a-zA-Z0-9_-]{11})/;
+  const match = videoUrl.match(regExp);
+  return match && match[1];
 };

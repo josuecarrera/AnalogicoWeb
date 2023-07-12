@@ -16,7 +16,9 @@ export const Blog = () => {
                   <iframe
                     width="400"
                     height="450"
-                    src={`https://www.youtube.com/embed/${getYouTubeVideoId(item.video)}`}
+                    src={`https://www.youtube.com/embed/${getYouTubeVideoId(
+                      item.video
+                    )}`}
                     title={item.title}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

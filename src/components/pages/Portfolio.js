@@ -26,9 +26,10 @@ export const Portfolio = () => {
   const handleDownload = () => {
     const fileUrl = `${process.env.PUBLIC_URL}/documents/Capitulo_3info.docx`;
 
-    saveAs(fileUrl, 'Capitulo3.docx');
+    saveAs(fileUrl, "Capitulo3.docx");
+  };
 
-  }
+  const url = "https://www.youtube.com/watch?v=Tt8ieZs5XKA";
   return (
     <>
       {/* Seccion 1 */}
@@ -47,19 +48,17 @@ export const Portfolio = () => {
             </>
           ))}
           <div className="">
-          {about.map((val) => (
-            <>
-              <div className="right" data-aos="fade-down-right">
-                <img src={val.cover14} alt="" />
-                {/* <p>{val.desc1}</p> */}
-                <p>{val.desc2}</p>
-              </div>
-            </>
-          ))}
+            {about.map((val) => (
+              <>
+                <div className="right" data-aos="fade-down-right">
+                  <img src={val.cover14} alt="" />
+                  {/* <p>{val.desc1}</p> */}
+                  <p>{val.desc2}</p>
+                </div>
+              </>
+            ))}
+          </div>
         </div>
-        </div>
-
-        
       </section>
       {/* Seccion 2 */}
       <section className="about">
@@ -86,8 +85,7 @@ export const Portfolio = () => {
         </div>
       </section>
 
-
-            {/* Seccion 3 */}
+      {/* Seccion 3 */}
       <section className="about">
         <div className="container flex">
           {about.map((val) => (
@@ -109,12 +107,12 @@ export const Portfolio = () => {
         </div>
       </section>
 
-        {/* Seccion 4 */}
+      {/* Seccion 4 */}
       <section className="about">
         <div className="container flex">
           {about.map((val) => (
             <>
-              <div className="left" >
+              <div className="left">
                 <Heading title="Parametros tecnicos de la comunicación por modulación" />
                 {/* <p>{val.desc3}</p>
                 <h2>{val.desc4}</h2> */}
@@ -130,7 +128,6 @@ export const Portfolio = () => {
           ))}
         </div>
       </section>
-
 
       {/* Seccion 4 */}
 
@@ -180,22 +177,15 @@ export const Portfolio = () => {
       {/* Seccion 5 */}
       <section className="about">
         <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                {/* <Heading title="Representacion fasorial de una onda de amplitud modulada" />
-                <p>{val.desc7}</p> */}
-                {/* <h2>{val.desc1}</h2> */}
-                {/* <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover35} alt="" />
-                </div> */}
-                {/* <p>Ilustracion 5 Pares trenzados</p> */}
-                {/* <BringPdf/> */}
-                {/* <button>Download CV</button> */}
-                {/* <button className="primaryBtn">More Information</button> */}
-              </div>
-            </>
-          ))}
+          <div>
+            <Heading title="Video" />
+            <iframe
+              title="unique title"
+              src={`https://www.youtube.com/embed/${getYouTubeVideoId(url)}`}
+              width="900"
+              height="550"
+            ></iframe>
+          </div>
         </div>
       </section>
 
@@ -365,8 +355,7 @@ export const Portfolio = () => {
         </div>
       </section>
 
-      <section className="about">
-      </section>
+      <section className="about"></section>
 
       {/* Seccion 14 */}
 
@@ -394,10 +383,15 @@ export const Portfolio = () => {
           ))}
         </div>
       </section>
-
-    
-   
-
     </>
   );
+};
+
+// Función auxiliar para obtener el ID del video de YouTube
+const getYouTubeVideoId = (videoUrl) => {
+  // Extrae el ID del video de la URL de YouTube
+  const regExp =
+    /^(?:(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?v=|https?:\/\/youtu\.be\/|www\.youtube\.com\/embed\/)([a-zA-Z0-9_-]{11})/;
+  const match = videoUrl.match(regExp);
+  return match && match[1];
 };
