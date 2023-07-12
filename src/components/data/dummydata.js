@@ -206,8 +206,21 @@ La frecuencia de la portadora oscila más o menos rápidamente, según la onda m
     desc58: `La FM indirecta es una modulación angular en la cual la frecuencia de la portadora se desvía indirectamente por la señal modulante. La FM indirecta se logra cambiando directamente la fase de la portadora y es, por lo tanto, una forma de modulación en fase directa. La fase instantánea de la portadora es directamente proporcional a la señal modulante.`,
     desc59: `Los transmisores de FM indirectos producen una forma de onda de salida, en la cual la desviación de fase es directamente proporcional a la señal modulante. Consecuentemente, el oscilador de la portadora no se desvía directamente. Por lo tanto, el oscilador de la portadora puede ser un cristal, ya que el oscilador, por sí mismo, no es el modulador.`,
     desc60: `Con la FM indirecta, la señal modulante desvía directamente la fase de la portadora, la cual cambia indirectamente la frecuencia. La figura 6-23 muestra el diagrama a bloques para un transmisor de FM indirecto de Armstrong de banda ancha. La fuente de la portadora es un cristal. Por lo tanto, los requerimientos de estabilidad para la frecuencia de la portadora establecida por la FCC, se pueden lograr sin usar un circuito de AFC. (Velasco, 2013)`,
-    desc61: ``,
+    desc61: `Las señales de información deben ser transportadas entre un transmisor y un receptor 
+    sobre alguna forma de medio de transmisión. Sin embargo, las señales de información 
+    pocas veces encuentran una forma adecuada para la transmisión. la modulación se 
+    define como el proceso de transformar información de su forma original a una forma 
+    más adecuada para la transmisión. Demodulación es el proceso inverso. La modulación 
+    se realiza en el transmisor en un circuito llamado modulador. (Vega, 2018)`,
     desc62: ``,
+    desc63: ``,
+    desc64: ``,
+    desc65: ``,
+    desc66: ``,
+    desc67: ``,
+    desc68: ``,
+    desc69: ``,
+    desc70: ``,
 
 
     cover: "./images/LineaDeTiempo.png",
@@ -225,9 +238,9 @@ La frecuencia de la portadora oscila más o menos rápidamente, según la onda m
     cover12: `./images/captwo/oscilador.png`,
     cover13: `./images/captwo/osciladorRetroalimentado.png`,
     cover14: `./images/capthree/ModulacionAmplitud.png`,
-    cover15: `./images/capthree/ModulacionAM.png`,
-    cover16: `./images/capthree/ecuacion1.png`,
-    cover17: `./images/capthree/tiposdemodulacion.png`,
+    cover15: `./images/capthree/Modulacion_AM.png`,
+    cover16: `./images/capthree/Modulador_Am.png`,
+    cover17: `./images/capthree/Parametrostecnicosdelacomunicaciónpormodulación.png`,
     cover18: `./images/capfour/modulacionFM.png`,
     cover19: `./images/capfour/procesodeModulacion.png`,
     cover20: `./images/capfour/modulacionfrecuencia.png`,
@@ -244,10 +257,14 @@ La frecuencia de la portadora oscila más o menos rápidamente, según la onda m
     cover31: `./images/capfour/TransmirionArmstrong.png`,
     cover32: `./images/DigAnal.png`,
     cover33: `./images/CaracteristicasMedioTx.png`,
-    cover34: `./images/capfour/.png`,
-    cover35: `./images/capfour/.png`,
-    cover36: `./images/capfour/.png`,
-    cover37: `./images/capfour/.png`,
+    cover34: `./images/capthree/RepresentaciónfasorialdeAm.png`,
+    cover35: `./images/capthree/RepreModuladAm.png`,
+    cover36: `./images/captwo/capitulo2.jpeg`,
+    cover37: `./images/mediosdeTransmision.png`,
+    cover38: `./images/captwo/OSCILADORES.png`,
+    cover39: `./images/capfour/.png`,
+    cover40: `./images/capfour/.png`,
+    cover41: `./images/capfour/.png`,
     
   },
 ];

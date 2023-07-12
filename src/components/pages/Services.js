@@ -3,15 +3,13 @@ import { saveAs } from "file-saver";
 import { Heading } from "../common/Heading";
 import { about, services } from "../data/dummydata";
 import { BringPdfTwo } from "../DataPDFTwo/BringPdfTwo";
-import { Blog } from "./Blog";
 
 export const Services = () => {
   const handleDownload = () => {
     const fileUrl = `${process.env.PUBLIC_URL}/documents/Capitulo_2info.docx`;
 
-    saveAs(fileUrl, 'Capitulo2.docx');
-
-  }
+    saveAs(fileUrl, "Capitulo2.docx");
+  };
 
   return (
     <>
@@ -33,11 +31,6 @@ export const Services = () => {
           <button className="primaryBtn">More Information</button>
         </div>
       </section>
-      
-      <section>
-        {/* <div className="container flex"></div> */}
-        <Blog/>
-      </section>
 
       {/* Seccion 1 */}
 
@@ -47,8 +40,8 @@ export const Services = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title=" INTRODUCCIÓN" />
-                <p>{val.desc25}</p>
-                <p>{val.desc26}</p>
+                <h2>{val.desc25}</h2>
+                {/* <h2>{val.desc26}</h2> */}
 
                 {/* <BringPdf />
                 <button>Download CV</button>
@@ -56,6 +49,9 @@ export const Services = () => {
                 {/* <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover11} alt="" />
                 </div> */}
+                <div className="img-container" data-aos="fade-down-right">
+                  <img src={val.cover36} alt="" />
+                </div>
               </div>
             </>
           ))}
@@ -70,8 +66,11 @@ export const Services = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="OSCILADORES" />
-                <p>{val.desc27}</p>
-                <p>{val.desc28}</p>
+                <h2>{val.desc27}</h2>
+                <div className="img-container" data-aos="fade-down-right">
+                  <img src={val.cover38} alt="" />
+                </div>
+                <h2>{val.desc28}</h2>
                 {/* <BringPdf />
                 <button>Download CV</button>
                 <button className="primaryBtn">More Information</button> */}
@@ -79,6 +78,24 @@ export const Services = () => {
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover12} alt="" />
                 </div>
+              </div>
+            </>
+          ))}
+        </div>
+      </section>
+      <section className="about">
+        <div className="container flex">
+          {about.map((val) => (
+            <>
+              <div className="left" data-aos="fade-down-left">
+                {/* <Heading title="OSCILADORES RETROALIMENTADOS" />
+                <p>{val.desc29}</p> */}
+                {/* <BringPdf />
+                <button>Download CV</button>
+                <button className="primaryBtn">More Information</button> */}
+                {/* <div className="img-container" data-aos="fade-down-right">
+                  <img src={val.cover13} alt="" />
+                </div> */}
               </div>
             </>
           ))}

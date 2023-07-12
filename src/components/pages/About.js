@@ -3,6 +3,7 @@ import { saveAs } from "file-saver";
 import { Heading } from "../common/Heading";
 import { about } from "../data/dummydata";
 import { BringPdf } from "../DataPDFOne/BringPdf";
+import { PracticeGuide } from "../GuiaPracticas/PracticeGuide";
 
 
 export const About = () => {
@@ -26,7 +27,7 @@ export const About = () => {
                 <p>{val.desc}</p>
                 <BringPdf />
                 <button onClick={handleDownload}>Download Word</button>
-                <button className="primaryBtn">More Information</button>
+                <PracticeGuide />
               </div>
             </>
           ))}
@@ -80,10 +81,10 @@ export const About = () => {
                 <Heading title="Características deseables de un Sistema de Comunicación" />
                 {/* <p>{val.desc8}</p> */}
                 {/* <h2>{val.desc1}</h2> */}
+                <p>Ilustracion 2: Caracteristicas de un Sistema de Comunicación</p>
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover33} alt="" />
                 </div>
-                <p>Caracteristicas de un Sistema de Comunicación</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -129,6 +130,9 @@ export const About = () => {
                 <p>Ilustracion 4 Medios de transmisión</p>
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover3} alt="" />
+                </div>
+                <div className="img-container" data-aos="fade-down-right">
+                  <img src={val.cover37} alt="" />
                 </div>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}

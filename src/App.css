@@ -63,7 +63,7 @@ button {
   padding: 15px 50px;
   border-radius: 50px;
   margin-top: 20px;
-  margin-right: 5vh;
+  margin-right: 2vh;
   cursor: pointer;
 }
 .fontSize {
@@ -117,7 +117,7 @@ header a {
 }
 /*---------header-------------*/
 section {
-  height: 105vh;
+  height: 115vh;
   display: flex;
   align-items: center;
 }
