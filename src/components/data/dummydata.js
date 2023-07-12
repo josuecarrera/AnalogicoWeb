@@ -262,7 +262,7 @@ La frecuencia de la portadora oscila más o menos rápidamente, según la onda m
     cover36: `./images/captwo/capitulo2.jpeg`,
     cover37: `./images/mediosdeTransmision.png`,
     cover38: `./images/captwo/OSCILADORES.png`,
-    cover39: `./images/capfour/.png`,
+    cover39: `./images/capfour/IntroduccionFrecuenciaAnalogica.png`,
     cover40: `./images/capfour/.png`,
     cover41: `./images/capfour/.png`,
     

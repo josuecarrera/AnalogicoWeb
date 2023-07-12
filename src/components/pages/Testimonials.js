@@ -44,6 +44,33 @@ export const Testimonials = () => {
           </div>
         </div>
       </section>
+
+      {/* Imagen */}
+      <section className="about">
+        <div className="container flex">
+          {about.map((val) => (
+            <>
+              <div className="left" data-aos="fade-down-left">
+                <div className="img-container" data-aos="fade-down-right">
+                  <img src={val.cover39} alt="" />
+
+                </div>
+                {/* <p>Ilustración 1 Historia de las telecomunicaciones</p> */}
+
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">Download CV</button> */}
+              </div>
+            </>
+          ))}
+        </div>
+      </section>
+       {/*  */}
+       <section className="about">
+        <div className="container flex">
+          
+        </div>
+      </section>
+
       {/* Seccion 2 */}
       <section className="about">
         <div className="container flex">
