@@ -40,7 +40,7 @@ export const Portfolio = () => {
               <div className="left" data-aos="fade-down-left">
                 <Heading title="CAPITULO 3" />
                 <Heading title="TRANSMISIÓN POR MODULACIÓN DE AMPLITUD" />
-                <p>{val.desc61}</p>
+                <h2>{val.desc61}</h2>
                 <BringPdfThree />
                 <button onClick={handleDownload}>Download Word</button>
                 <button className="primaryBtn">More Information</button>
@@ -66,7 +66,7 @@ export const Portfolio = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Modulación AM" />
+                <Heading title="MODULACIÓN AM" />
                 {/* <p>{val.desc3}</p> */}
                 <h2>{val.desc32}</h2>
                 <div className="img-container" data-aos="fade-down-right">
@@ -94,7 +94,7 @@ export const Portfolio = () => {
                 <Heading title="Modulador AM" />
                 {/* <p>{val.desc8}</p> */}
                 {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover16} alt="" />
                 </div>
                 <p>Caracteristicas de un Sistema de Comunicación</p>
@@ -113,7 +113,7 @@ export const Portfolio = () => {
           {about.map((val) => (
             <>
               <div className="left">
-                <Heading title="Parametros tecnicos de la comunicación por modulación" />
+                <Heading title="PARÁMETROS TÉCNICOS DE LA COMUNICACIÓN POR MODULACIÓN" />
                 {/* <p>{val.desc3}</p>
                 <h2>{val.desc4}</h2> */}
                 <div className="img-container" data-aos="fade-down-right">
@@ -136,7 +136,7 @@ export const Portfolio = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Representación fasorial de Am" />
+                <Heading title="REPRESENTACIÓN FASORIAL DE AM" />
                 {/* <p>{val.desc3}</p> */}
                 {/* <h2>{val.desc1}</h2> */}
                 {/* <p>Ilustracion 4 Medios de transmisión</p> */}
@@ -158,10 +158,10 @@ export const Portfolio = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Representacion fasorial de una onda de amplitud modulada" />
-                <p>{val.desc7}</p>
+                <Heading title="REPRESENTACIÓN FASORIAL DE UNA ONDA DE AMPLITUD MODULADA" />
+                <h2>{val.desc7}</h2>
                 {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover35} alt="" />
                 </div>
                 <p>Ilustracion 5 Pares trenzados</p>
@@ -178,7 +178,7 @@ export const Portfolio = () => {
       <section className="about">
         <div className="container flex">
           <div>
-            <Heading title="Video" />
+            <Heading title="VIDEO" />
             <iframe
               title="unique title"
               src={`https://www.youtube.com/embed/${getYouTubeVideoId(url)}`}

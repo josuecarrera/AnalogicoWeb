@@ -46,7 +46,7 @@ export const navlink = [
   },
   {
     url: "/blog",
-    text: "Videos",
+    text: "Software",
   },
   {
     url: "/contact",

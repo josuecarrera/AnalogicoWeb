@@ -22,9 +22,9 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="CAPITULO 1" />
+                <Heading title="CAPÍTULO 1" />
                 <Heading title="INTRODUCCIÓN A LOS SISTEMAS DE COMUNICACIONES ELECTRÓNICAS" />
-                <p>{val.desc}</p>
+                <h2>{val.desc}</h2>
                 <BringPdf />
                 <button onClick={handleDownload}>Download Word</button>
                 <PracticeGuide />
@@ -50,13 +50,13 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="De lo analógico a lo digital" />
-                <p>{val.desc3}</p>
-                <h2>{val.desc4}</h2>
-                <div className="img-container" data-aos="fade-down-right">
+                <Heading title="DE LO ANALÓGICO A LO DIGITAL" />
+                <h2>{val.desc3}</h2>
+                <p>{val.desc4}</p>
+                <div className="img-container">
                   <img src={val.cover1} alt="" />
                 </div>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover32} alt="" />
                 </div>
                 {/* <p>Ilustración 1 Historia de las telecomunicaciones</p> */}
@@ -75,13 +75,13 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Características deseables de un Sistema de Comunicación" />
+                <Heading title="CARACTERÍSTICAS DESEABLES DE UN SISTEMA DE COMUNICACIÓN" />
                 {/* <p>{val.desc8}</p> */}
                 {/* <h2>{val.desc1}</h2> */}
                 <p>
-                  Ilustracion 2: Caracteristicas de un Sistema de Comunicación
+                  Ilustración 2: Características de un Sistema de Comunicación
                 </p>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover33} alt="" />
                 </div>
                 {/* <BringPdf/> */}
@@ -102,10 +102,10 @@ export const About = () => {
                 <Heading title="ELEMENTOS DE UN SISTEMA DE COMUNICACIÓN" />
                 {/* <p>{val.desc3}</p>
                 <h2>{val.desc4}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover2} alt="" />
                 </div>
-                <p>Ilustración 3 Elementos de un sistema de comunicacion</p>
+                <p>Ilustración 3 Elementos de un sistema de comunicación</p>
 
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">Download CV</button> */}
@@ -123,13 +123,13 @@ export const About = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="MEDIOS DE TRANSMISIÓN" />
-                <p>{val.desc6}</p>
+                <h2>{val.desc6}</h2>
                 {/* <h2>{val.desc1}</h2> */}
-                <p>Ilustracion 4 Medios de transmisión</p>
-                <div className="img-container" data-aos="fade-down-right">
+                <p>Ilustración 4 Medios de transmisión</p>
+                <div className="img-container">
                   <img src={val.cover3} alt="" />
                 </div>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover37} alt="" />
                 </div>
                 {/* <BringPdf/> */}
@@ -149,6 +149,7 @@ export const About = () => {
         <div className="container flex">
           <div>
             <Heading title="Video" />
+            <h2>INTRODUCCIÓN A LAS COMUNICACIONES ANALOGICAS</h2>
             <iframe
               title="unique title"
               src={`https://www.youtube.com/embed/${getYouTubeVideoId(url)}`}
@@ -166,12 +167,12 @@ export const About = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="Pares trenzados" />
-                <p>{val.desc7}</p>
+                <h2>{val.desc7}</h2>
                 {/* <h2>{val.desc1}</h2> */}
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover4} alt="" />
                 </div>
-                <p>Ilustracion 5 Pares trenzados</p>
+                <p>Ilustración 5 Pares trenzados</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -187,13 +188,13 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Cable coaxial" />
-                <p>{val.desc8}</p>
+                <Heading title="CABLE COAXIAL" />
+                <h2>{val.desc8}</h2>
                 {/* <h2>{val.desc1}</h2> */}
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover5} alt="" />
                 </div>
-                <p>Ilustracion 6 Cable Coaxial</p>
+                <p>Ilustración 6 Cable Coaxial</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -209,13 +210,13 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Radio enlaces de VHF y UHF" />
-                <p>{val.desc9}</p>
+                <Heading title="RADIO ENLACES DE VHF Y UHF" />
+                <h2>{val.desc9}</h2>
                 {/* <h2>{val.desc1}</h2> */}
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover6} alt="" />
                 </div>
-                <p>Ilustracion 7 Radio Enlace</p>
+                <p>Ilustración 7 Radio Enlace</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -231,13 +232,13 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Microondas" />
-                <p>{val.desc10}</p>
+                <Heading title="MICROONDAS" />
+                <h2>{val.desc10}</h2>
                 {/* <h2>{val.desc1}</h2> */}
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover7} alt="" />
                 </div>
-                <p>Ilustracion 8 Microondas</p>
+                <p>Ilustración 8 Microondas</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -275,9 +276,9 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Señal digital" />
-                <p>{val.desc11}</p>
-                <p>{val.desc12}</p>
+                <Heading title="SEÑAL DIGITAL" />
+                <hh2>{val.desc11}</hh2>
+                <hh2>{val.desc12}</hh2>
                 {/* <h2>{val.desc1}</h2> */}
               </div>
             </>
@@ -291,8 +292,8 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Señal Analógica" />
-                <p>{val.desc13}</p>
+                <Heading title="SEÑAL ANALÓGICA" />
+                <h2>{val.desc13}</h2>
                 {/* <p>{val.desc14}</p> */}
                 {/* <h2>{val.desc1}</h2> */}
                 <div className="img-container" data-aos="fade-down-right">
@@ -315,11 +316,11 @@ export const About = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="EJEMPLOS DE SOLUCIONES EN EL DISEÑO DE SISTEMAS DE COMUNICACIÓN" />
-                <Heading title="Comunicaciones Satelitales" />
+                <Heading title="COMUNICACIONES SATELITALES" />
                 <h2>{val.desc15}</h2>
-                <Heading title="Comunicaciones de microondas" />
+                <Heading title="COMUNICACIONES DE MICROONDAS" />
                 <h2>{val.desc16}</h2>
-                <Heading title="Telefonía celular" />
+                <Heading title="TELEFONÍA CELULAR" />
                 <h2>{val.desc17}</h2>
               </div>
             </>
@@ -334,8 +335,8 @@ export const About = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="MODELO BÁSICO DE TELECOMUNICACIONES" />
-                <Heading title="Sistema básico de comunicación" />
-                <Heading title="Modelo de un Sistema de Comunicaciones:" />
+                <Heading title="SISTEMA BÁSICO DE COMUNICACIÓN" />
+                <Heading title="MODELO DE UN SISTEMA DE COMUNICACIONES:" />
                 <h2>{val.desc18}</h2>
                 <h2>{val.desc19}</h2>
                 <div className="img-container" data-aos="fade-down-right">
@@ -359,14 +360,14 @@ export const About = () => {
                 <Heading title="ELEMENTOS DEL SISTEMA" />
                 <h2>{val.desc20}</h2>
 
-                <Heading title="El Transmisor" />
-                <p>{val.desc21}</p>
-                <Heading title="El Canal" />
-                <p>{val.desc22}</p>
-                <Heading title="Receptor" />
-                <p>{val.desc23}</p>
-                <Heading title="El Mensaje" />
-                <p>{val.desc24}</p>
+                <Heading title="EL TRANSMISOR" />
+                <h2>{val.desc21}</h2>
+                <Heading title="EL CANAL" />
+                <h2>{val.desc22}</h2>
+                <Heading title="RECEPTOR" />
+                <h2>{val.desc23}</h2>
+                <Heading title="EL MENSAJE" />
+                <h2>{val.desc24}</h2>
                 {/* <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover10} alt="" />
                 </div> */}

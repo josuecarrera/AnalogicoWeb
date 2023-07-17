@@ -51,7 +51,7 @@ export const Services = () => {
                 {/* <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover11} alt="" />
                 </div> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover36} alt="" />
                 </div>
               </div>
@@ -69,7 +69,7 @@ export const Services = () => {
               <div className="left" data-aos="fade-down-left">
                 <Heading title="OSCILADORES" />
                 <h2>{val.desc27}</h2>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover38} alt="" />
                 </div>
                 <h2>{val.desc28}</h2>
@@ -112,11 +112,11 @@ export const Services = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="OSCILADORES RETROALIMENTADOS" />
-                <p>{val.desc29}</p>
+                <h2>{val.desc29}</h2>
                 {/* <BringPdf />
                 <button>Download CV</button>
                 <button className="primaryBtn">More Information</button> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover13} alt="" />
                 </div>
               </div>
