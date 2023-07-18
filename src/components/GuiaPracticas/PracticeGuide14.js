@@ -9,7 +9,7 @@ export const PracticeGuide14 = () => {
   const [resume, setResume] = useState(null);
 
   useEffect(() => {
-    getDownloadURL(ref(storage, "GUIADEPRACTICA_N2_MEZCLADORES.pdf")).then(
+    getDownloadURL(ref(storage, "GUIADEPRACTICASN14DEMODULADORFM.pdf")).then(
       (url) => {
         setResume(url);
       }

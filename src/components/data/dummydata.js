@@ -286,7 +286,18 @@ La frecuencia de la portadora oscila más o menos rápidamente, según la onda m
     cover60: `./images/capfour/demoduladorFMdiscriminador.png`,
     cover61: `./images/blog/balancedepotencia.png`,
     cover62: `./images/blog/mezcladores.png`,
-    cover63: `./images/blog/demoduladorFMdiscriminador.png`,
+    cover64: `./images/blog/opamp.png`,
+    cover65: `./images/blog/ampoperacional.png`,
+    cover66: `./images/blog/amplioperacional.png`,
+    cover67: `./images/blog/histeresis.png`,
+    cover68: `./images/blog/filtroactivo.png`,
+    cover69: `./images/blog/operacional-realimentacion-positiva.png`,
+    cover70: `./images/blog/osciladorrf.png`,
+    cover71: `./images/blog/pasabanda.png`,
+    cover72: `./images/blog/Amplitud.png`,
+    cover73: `./images/blog/demolador_am.png`,
+    cover74: `./images/blog/demodulador_fm.png`,
+    cover75: `./images/blog/modulador_fm.png`,
 
 
     

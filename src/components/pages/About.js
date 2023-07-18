@@ -3,7 +3,6 @@ import { saveAs } from "file-saver";
 import { Heading } from "../common/Heading";
 import { about } from "../data/dummydata";
 import { BringPdf } from "../DataPDFOne/BringPdf";
-import { PracticeGuide } from "../GuiaPracticas/PracticeGuide";
 import { PracticeGuide2 } from "../GuiaPracticas/PracticeGuide2";
 
 export const About = () => {

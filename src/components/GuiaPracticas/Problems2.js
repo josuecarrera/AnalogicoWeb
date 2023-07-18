@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 import storage from "../../config/firebase";
 import { getDownloadURL, ref } from "firebase/storage";
-import { Buttontwo } from "./Buttontwo";
 import { Modal } from "../DataPDFOne/Modal";
+import { Buttonfour } from "./Buttonfour";
 
-export const PracticeGuide11 = () => {
+export const Problems2 = () => {
   const [modal, setModal] = useState(false);
   const [resume, setResume] = useState(null);
 
   useEffect(() => {
-    getDownloadURL(ref(storage, "GUIADEPRACTICAS_N11_MODULADORAM.pdf")).then(
+    getDownloadURL(ref(storage, "PROBLEMAS_PROPUESTOS_U2.pdf")).then(
       (url) => {
         setResume(url);
       }
@@ -17,7 +17,7 @@ export const PracticeGuide11 = () => {
   }, []);
   return (
     <>
-      <Buttontwo setModal={setModal} />
+      <Buttonfour setModal={setModal} />
       {modal === true && <Modal setModal={setModal} resume={resume} />}
     </>
   );
