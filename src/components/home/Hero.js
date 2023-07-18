@@ -20,8 +20,12 @@ export const Hero = () => {
                     }}
                 />
             </h1>
-            <p data-aos='fade-left'>{val.desc}</p>
-            <BringPdf/>
+            <p data-aos='fade-left'>Integrantes: </p>
+            <h2 data-aos='fade-left'>Jessica Lopez</h2>
+            <h2 data-aos='fade-left'>Josue Carrera</h2>
+            <h2 data-aos='fade-left'>Mateo Llerena</h2>
+            <h2 data-aos='fade-left'>Christian Morales</h2>
+            {/* <BringPdf/> */}
             {/* <button className="primaryBtn" data-aos='fade-up-right'>
                 Dowload CV
             </button> */}

@@ -4,6 +4,7 @@ import { Heading } from "../common/Heading";
 import { about } from "../data/dummydata";
 import { BringPdf } from "../DataPDFOne/BringPdf";
 import { PracticeGuide } from "../GuiaPracticas/PracticeGuide";
+import { PracticeGuide2 } from "../GuiaPracticas/PracticeGuide2";
 
 export const About = () => {
   const handleDownload = () => {
@@ -28,6 +29,7 @@ export const About = () => {
                 <BringPdf />
                 <button onClick={handleDownload}>Download Word</button>
                 <PracticeGuide />
+                <PracticeGuide2 />
               </div>
             </>
           ))}
@@ -44,64 +46,46 @@ export const About = () => {
           </div>
         </div>
       </section>
+
+      <section className="about">
+        <div className="container flex">
+          <div>
+            <Heading title="Video" />
+            <h2>INTRODUCCIÓN A LAS COMUNICACIONES ANALOGICAS</h2>
+            <iframe
+              title="unique title"
+              src={`https://www.youtube.com/embed/${getYouTubeVideoId(url)}`}
+              width="900"
+              height="550"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       {/* Seccion 2 */}
       <section className="about">
         <div className="container flex">
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="DE LO ANALÓGICO A LO DIGITAL" />
-                <h2>{val.desc3}</h2>
-                <p>{val.desc4}</p>
-                <div className="img-container">
-                  <img src={val.cover1} alt="" />
-                </div>
-                <div className="img-container">
-                  <img src={val.cover32} alt="" />
-                </div>
-                {/* <p>Ilustración 1 Historia de las telecomunicaciones</p> */}
-
-                {/* <button>Download CV</button> */}
-                {/* <button className="primaryBtn">Download CV</button> */}
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 3 */}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="CARACTERÍSTICAS DESEABLES DE UN SISTEMA DE COMUNICACIÓN" />
-                {/* <p>{val.desc8}</p> */}
-                {/* <h2>{val.desc1}</h2> */}
-                <p>
-                  Ilustración 2: Características de un Sistema de Comunicación
-                </p>
-                <div className="img-container">
-                  <img src={val.cover33} alt="" />
-                </div>
-                {/* <BringPdf/> */}
-                {/* <button>Download CV</button> */}
-                {/* <button className="primaryBtn">More Information</button> */}
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 4 */}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
                 <Heading title="ELEMENTOS DE UN SISTEMA DE COMUNICACIÓN" />
-                {/* <p>{val.desc3}</p>
-                <h2>{val.desc4}</h2> */}
+                {/* <p>{val.desc3}</p> */}
+                <h2>
+                  Los elementos de un sistema de comunicación son componentes
+                  fundamentales que se combinan para permitir la transmisión
+                  efectiva de información entre un emisor y un receptor. Estos
+                  elementos incluyen una fuente de información, que genera el
+                  mensaje a transmitir, un transmisor que codifica y modula el
+                  mensaje en una forma adecuada para su transmisión, un medio de
+                  transmisión que lleva la señal codificada, un receptor que
+                  demodula y decodifica la señal recibida, y un destino final
+                  que interpreta y utiliza la información transmitida. Además,
+                  se pueden agregar elementos adicionales, como amplificadores,
+                  filtros y antenas, para mejorar la calidad y la eficiencia de
+                  la transmisión. En conjunto, estos elementos forman un sistema
+                  integral que permite la comunicación efectiva entre las partes
+                  involucradas.
+                </h2>
                 <div className="img-container">
                   <img src={val.cover2} alt="" />
                 </div>
@@ -115,7 +99,7 @@ export const About = () => {
         </div>
       </section>
 
-      {/* Seccion 4 */}
+      {/* Seccion 3 */}
 
       <section className="about">
         <div className="container flex">
@@ -141,23 +125,9 @@ export const About = () => {
         </div>
       </section>
 
+      {/* Espaciador */}
       <section className="about">
         <div className="container flex"></div>
-      </section>
-
-      <section className="about">
-        <div className="container flex">
-          <div>
-            <Heading title="Video" />
-            <h2>INTRODUCCIÓN A LAS COMUNICACIONES ANALOGICAS</h2>
-            <iframe
-              title="unique title"
-              src={`https://www.youtube.com/embed/${getYouTubeVideoId(url)}`}
-              width="900"
-              height="550"
-            ></iframe>
-          </div>
-        </div>
       </section>
 
       {/* Seccion 5 */}
@@ -166,7 +136,7 @@ export const About = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Pares trenzados" />
+                <Heading title="PARES TRENZADOS" />
                 <h2>{val.desc7}</h2>
                 {/* <h2>{val.desc1}</h2> */}
                 <div className="img-container" data-aos="fade-down-right">
@@ -182,8 +152,8 @@ export const About = () => {
         </div>
       </section>
 
-      {/* Seccion 6 */}
-      <section className="about">
+       {/* Seccion 6 */}
+       <section className="about">
         <div className="container flex">
           {about.map((val) => (
             <>
@@ -226,6 +196,7 @@ export const About = () => {
         </div>
       </section>
 
+      
       {/* Seccion 8 */}
       <section className="about">
         <div className="container flex">
@@ -256,9 +227,12 @@ export const About = () => {
               <div className="left" data-aos="fade-down-left">
                 <Heading title="COMUNICACIÓN DIGITAL VS SEÑAL ANALÓGICA" />
                 {/* <p>{val.desc11}</p> */}
-                {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <h2>La comunicación digital se refiere al proceso de transmitir y recibir información a través de señales digitales, que son representadas por valores discretos, generalmente en forma binaria (0 y 1). Este tipo de comunicación utiliza tecnologías como la transmisión de datos por internet, telefonía móvil, redes sociales y correo electrónico. Por otro lado, la señal analógica se basa en la transmisión de información a través de ondas continuas y variables en amplitud, frecuencia o fase. Se utiliza en tecnologías como la radio, la televisión analógica y las señales de audio. La comunicación digital ofrece ventajas como una mayor capacidad de almacenamiento y transmisión de información, mayor calidad de señal y facilidad para el procesamiento y manipulación de datos, mientras que la señal analógica puede tener una mayor fidelidad en la reproducción de sonidos o imágenes. Ambos tipos de comunicación tienen su utilidad y aplicaciones específicas en diversos campos y tecnologías.</h2>
+                {/* <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover8} alt="" />
+                </div> */}
+                <div className="img-container">
+                  <img src={val.cover32} alt="" />
                 </div>
                 {/* <p>Ilustracion 8 Microondas</p> */}
                 {/* <BringPdf/> */}
@@ -270,6 +244,86 @@ export const About = () => {
         </div>
       </section>
 
+      {/* Seccion 2 */}
+      <section className="about">
+        <div className="container flex">
+          {about.map((val) => (
+            <>
+              <div className="left" data-aos="fade-down-left">
+                <Heading title="DE LO ANALÓGICO A LO DIGITAL" />
+                <h2>{val.desc3}</h2>
+                <p>{val.desc4}</p>
+                <div className="img-container">
+                  <img src={val.cover1} alt="" />
+                </div>
+                
+                {/* <p>Ilustración 1 Historia de las telecomunicaciones</p> */}
+
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">Download CV</button> */}
+              </div>
+            </>
+          ))}
+        </div>
+      </section>
+
+      <section className="about">
+        <div className="container flex"></div>
+      </section>
+
+      {/* Seccion 3 */}
+      <section className="about">
+        <div className="container flex">
+          {about.map((val) => (
+            <>
+              <div className="left" data-aos="fade-down-left">
+                <Heading title="CARACTERÍSTICAS DESEABLES DE UN SISTEMA DE COMUNICACIÓN" />
+                {/* <p>{val.desc8}</p> */}
+                <h2>
+                  Las características deseables de un sistema de comunicación
+                  incluyen una transmisión clara y confiable de información,
+                  alta velocidad de transferencia de datos, capacidad para
+                  manejar grandes volúmenes de información, baja latencia en la
+                  transmisión, seguridad de la información transmitida,
+                  interoperabilidad con otros sistemas, flexibilidad para
+                  adaptarse a diferentes entornos y dispositivos, facilidad de
+                  uso y configuración, y costos operativos y de mantenimiento
+                  razonables. Además, un sistema de comunicación ideal debería
+                  tener un amplio alcance geográfico, resistencia a
+                  interferencias y capacidad para soportar diferentes tipos de
+                  medios de comunicación, como voz, video y datos. Estas
+                  características contribuyen a una comunicación efectiva y
+                  eficiente, facilitando la transmisión y recepción de
+                  información de manera rápida, segura y accesible para los
+                  usuarios.
+                </h2>
+                <p>
+                  Ilustración 2: Características de un Sistema de Comunicación
+                </p>
+                <div className="img-container">
+                  <img src={val.cover33} alt="" />
+                </div>
+                {/* <BringPdf/> */}
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">More Information</button> */}
+              </div>
+            </>
+          ))}
+        </div>
+      </section>
+
+      {/* Espaciador */}
+      <section className="about">
+        <div className="container flex"></div>
+      </section>
+
+     
+
+      
+
+
+      
+
       {/* Seccion 10 */}
       <section className="about">
         <div className="container flex">
@@ -277,8 +331,8 @@ export const About = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="SEÑAL DIGITAL" />
-                <hh2>{val.desc11}</hh2>
-                <hh2>{val.desc12}</hh2>
+                <h2>{val.desc11}</h2>
+                <h2>{val.desc12}</h2>
                 {/* <h2>{val.desc1}</h2> */}
               </div>
             </>

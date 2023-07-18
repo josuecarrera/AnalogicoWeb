@@ -4,18 +4,17 @@ import { getDownloadURL, ref } from "firebase/storage";
 import { Buttontwo } from "./Buttontwo";
 import { Modal } from "../DataPDFOne/Modal";
 
-export const PracticeGuide = () => {
+export const PracticeGuide2 = () => {
   const [modal, setModal] = useState(false);
   const [resume, setResume] = useState(null);
 
   useEffect(() => {
     getDownloadURL(
-      ref(storage, "GUIADEPRACTICAS_N1_BALANCEDEPOTENCIA.pdf")
+      ref(storage, "GUIADEPRACTICA_N2_MEZCLADORES.pdf")
     ).then((url) => {
       setResume(url);
     });
   }, []);
-
   return (
     <>
       <Buttontwo setModal={setModal} />

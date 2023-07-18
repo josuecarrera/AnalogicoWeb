@@ -23,7 +23,7 @@ export const Testimonials = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="CAPITULO 4" />
-                <Heading title="1.	Modulación por frecuencia analógica (FM)" />
+                <Heading title="1.MODULACIÓN POR FRECUENCIA ANALÓGICA (FM)" />
                 <p>{val.desc37}</p>
                 <BringPdfFour />
                 <button onClick={handleDownload}>Download Word</button>

@@ -59,7 +59,7 @@ export const home = [
     name: "AL CURSO DE",
     post: "COMUNICACION ANALOGICA",
     design: "SEXTO / A",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    desc: "",
   },
 ];
 export const about = [
@@ -263,8 +263,25 @@ La frecuencia de la portadora oscila más o menos rápidamente, según la onda m
     cover37: `./images/mediosdeTransmision.png`,
     cover38: `./images/captwo/OSCILADORES.png`,
     cover39: `./images/capfour/IntroduccionFrecuenciaAnalogica.png`,
-    cover40: `./images/capfour/.png`,
-    cover41: `./images/capfour/.png`,
+    cover40: `./images/captwo/nosintonizado.png`,
+    cover41: `./images/captwo/puentewein.png`,
+    cover42: `./images/captwo/osciladorsintonizados.png`,
+    cover43: `./images/captwo/osciladorhartley1.png`,
+    cover44: `./images/captwo/osciladorhartley.png`,
+    cover45: `./images/captwo/osciladoresdecristal1.png`,
+    cover46: `./images/capthree/modulacionam1.png`,
+    cover47: `./images/capthree/relacionmensaje.png`,
+    cover48: `./images/capthree/arquitectura.png`,
+    cover49: `./images/capthree/modulaciondsb.png`,
+    cover50: `./images/capthree/modulacionamdsb.png`,
+    cover51: `./images/capthree/modulacionamss.png`,
+    cover52: `./images/capthree/filtrovsb.png`,
+    cover53: `./images/capthree/diagramademodulador.png`,
+    cover54: `./images/capthree/demoduladoram.png`,
+    cover55: `./images/capthree/relacionmensaje.png`,
+    cover56: `./images/capthree/relacionmensaje.png`,
+
+
     
   },
 ];
