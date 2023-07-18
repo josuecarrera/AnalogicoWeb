@@ -3,7 +3,6 @@ import { saveAs } from "file-saver";
 import { Heading } from "../common/Heading";
 import { about } from "../data/dummydata";
 import { BringPdf } from "../DataPDFOne/BringPdf";
-import { PracticeGuide2 } from "../GuiaPracticas/PracticeGuide2";
 
 export const About = () => {
   const handleDownload = () => {
@@ -28,7 +27,7 @@ export const About = () => {
                 <BringPdf />
                 <button onClick={handleDownload}>Download Word</button>
                 {/* <PracticeGuide /> */}
-                <PracticeGuide2 />
+                {/* <PracticeGuide2 /> */}
               </div>
             </>
           ))}

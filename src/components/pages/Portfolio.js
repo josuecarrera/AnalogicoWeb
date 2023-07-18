@@ -43,7 +43,7 @@ export const Portfolio = () => {
                 <h2>{val.desc61}</h2>
                 <BringPdfThree />
                 <button onClick={handleDownload}>Download Word</button>
-                <button className="primaryBtn">More Information</button>
+                
               </div>
             </>
           ))}
@@ -152,7 +152,7 @@ export const Portfolio = () => {
                 <h2>
                    La información de amplitud y frecuencia se montan sobre la
                   portadora, haciendo que su envolvente varíe en función de la
-                  señal moduladora o de información
+                  señal moduladora o de información.
                 </h2>
                 <p>Ilustración 3 Proceso de la modulación AM</p>
                 <div className="img-container">

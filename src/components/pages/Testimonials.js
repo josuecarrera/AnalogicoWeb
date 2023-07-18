@@ -27,7 +27,6 @@ export const Testimonials = () => {
                 <h2>{val.desc37}</h2>
                 <BringPdfFour />
                 <button onClick={handleDownload}>Download Word</button>
-                <button className="primaryBtn">More Information</button>
               </div>
             </>
           ))}
@@ -74,13 +73,13 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Aplicaciones de FM" />
+                <Heading title="APLICACIONES DE FM" />
                 <h2>{val.desc39}</h2>
                 <h2>{val.desc40}</h2>
                 <h2>{val.desc41}</h2>
                 <h2>{val.desc42}</h2>
                 <p>Ilustración 3: Aplicaciones de FM</p>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover19} alt="" />
                 </div>
 
@@ -98,13 +97,13 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Modulación angular" />
+                <Heading title="MODULACIÓN ANGULAR" />
                 <h2>{val.desc45}</h2>
                 {/* <h2>{val.desc46}</h2>
                 <h2>{val.desc47}</h2>
                 <h2>{val.desc48}</h2> */}
                 <p>Ilustración 4: Modulación angular</p>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover20} alt="" />
                 </div>
 
@@ -120,11 +119,11 @@ export const Testimonials = () => {
         <div className="container flex">
           {about.map((val) => (
             <>
-              <Heading title="Modulación directa de fase (PM)" />
+              <Heading title="MODULACIÓN DIRECTA DE FASE (PM)" />
               <div className="left" data-aos="fade-down-left">
                 {/* <p>{val.desc46}</p> */}
                 <h2>{val.desc46}</h2>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover21} alt="" />
                 </div>
                 <p>Ilustración 5: Modulación directa de fase (PM)</p>
@@ -143,11 +142,11 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Análisis en frecuencia de las ondas  con  modulación angular" />
+                <Heading title="ANÁLISIS EN FRECUENCIA DE LAS ONDAS CON MODULACIÓN ANGULAR" />
 
                 <h2>{val.desc48}</h2>
                 <p>Ilustracion 6: Modulación Angular</p>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover23} alt="" />
                 </div>
                 {/* <BringPdf/> */}
@@ -180,11 +179,11 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Ancho mínimo de banda" />
+                <Heading title="ANCHO MÍNIMO DE BANDA" />
                 <h2>{val.desc49}</h2>
                 {/* <h2>{val.desc1}</h2> */}
                 <p>Ilustracion 7: Ancho de banda</p>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover24} alt="" />
                 </div>
                 {/* <BringPdf/> */}
@@ -202,10 +201,10 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Etapas de un modulador por frecuencia analógico" />
+                <Heading title="ETAPAS DE UN MODULADOR POR FRECUENCIA ANALÓGICO" />
                 <h2>{val.desc50}</h2>
                 {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover25} alt="" />
                 </div>
                 <p>Ilustracion 8: Etapas Frecuencia Analógico</p>
@@ -224,11 +223,11 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Moduladores" />
+                <Heading title="MODULADORES" />
                 <h2>{val.desc51}</h2>
                 <h2>{val.desc52}</h2>
                 {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover26} alt="" />
                 </div>
                 <p>Ilustracion 9: Moduladores</p>
@@ -247,10 +246,10 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Moduladores de diodo varactor" />
+                <Heading title="MODULADORES DE DIODO VARACTOR" />
                 <h2>{val.desc53}</h2>
                 {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover27} alt="" />
                 </div>
                 <p>Ilustracion 10: Moduladores de diodo varactor</p>
@@ -269,11 +268,11 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Transmisores" />
+                <Heading title="TRANSMISORES" />
                 <h2>{val.desc54}</h2>
                 <h2>{val.desc55}</h2>
                 {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover28} alt="" />
                 </div>
                 <p>Ilustracion 11 Transmisores</p>
@@ -292,10 +291,10 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Transmisor directo de FM de Crosby" />
+                <Heading title="TRANSMISOR DIRECTO DE FM DE CROSBY" />
                 <h2>{val.desc56}</h2>
                 {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover27} alt="" />
                 </div>
                 <p>Ilustracion 12: Transmisor directo de FM de Crosby</p>
@@ -314,11 +313,11 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Moduladores indirectos" />
+                <Heading title="MODULADORES INDIRECTOS" />
                 {/* <p>{val.desc11}</p> */}
                 <h2>{val.desc57}</h2>
                 <h2>{val.desc58}</h2>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover30} alt="" />
                 </div>
                 <p>Ilustracion 13: Moduladores indirectos</p>
@@ -337,7 +336,7 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Transmisores de FM indirectos" />
+                <Heading title="TRANSMISORES DE FM INDIRECTOS" />
                 <h2>{val.desc59}</h2>
                 {/* <p>{val.desc12}</p> */}
                 {/* <h2>{val.desc1}</h2> */}
@@ -353,11 +352,11 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Transmisor FM indirecto de Armstrong" />
+                <Heading title="TRANSMISOR FM INDIRECTO DE ARMSTRONG" />
                 <h2>{val.desc60}</h2>
                 {/* <p>{val.desc14}</p> */}
                 {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover31} alt="" />
                 </div>
                 <p>Ilustracion 14: Transmisor FM indirecto de Armstrong</p>
@@ -381,7 +380,7 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Demodulación FM" />
+                <Heading title="DEMODULACIÓN FM" />
                 <h2>
                   Si recordamos lo visto en clase, FM se define como una
                   modulación angular, concretamente una modulación en
@@ -399,7 +398,7 @@ export const Testimonials = () => {
                 </h2>
                 {/* <p>{val.desc14}</p> */}
                 {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover58} alt="" />
                 </div>
                 <p>Ilustracion 15: Demodulación FM</p>
@@ -418,7 +417,7 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Demodulación con GNURADIO y HACKRF" />
+                <Heading title="DEMODULACIÓN CON GNURADIO Y HACKRF" />
                 <h2>
                   Las modulaciones FM pueden modelarse del mismo modo que las de
                   PM, pero con un integrador a la entrada de la señal
@@ -442,7 +441,7 @@ export const Testimonials = () => {
                   ocupar más ancho de banda que 80 KHz){" "}
                 </h2>
 
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover59} alt="" />
                 </div>
                 <p>Ilustracion 16: Demodulación con GNURADIO y HACKRF</p>
@@ -461,13 +460,13 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="Demodulador FM por discriminador" />
+                <Heading title="DEMODULADOR FM POR DISCRIMINADOR" />
                 <h2>
                   Detector clásico de FM, consiste en derivar la señal con
                   respecto al tiempo y obtener la señal original más una señal
-                  modulada en AM
+                  modulada en AM.
                 </h2>
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover60} alt="" />
                 </div>
                 <p>Ilustracion 17: Demodulador FM por discriminador</p>

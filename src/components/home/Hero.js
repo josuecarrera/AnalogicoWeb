@@ -1,7 +1,6 @@
 import React from "react";
 import { home } from "../data/dummydata";
 import Typewriter from "typewriter-effect"
-import { BringPdf } from "../DataPDFOne/BringPdf";
 
 
 export const Hero = () => {
@@ -21,7 +20,7 @@ export const Hero = () => {
                 />
             </h1>
             <p data-aos='fade-left'>Integrantes: </p>
-            <h2 data-aos='fade-left'>Jessica Lopez</h2>
+            <h2 data-aos='fade-left'>Jessica López</h2>
             <h2 data-aos='fade-left'>Josue Carrera</h2>
             <h2 data-aos='fade-left'>Mateo Llerena</h2>
             <h2 data-aos='fade-left'>Christian Morales</h2>

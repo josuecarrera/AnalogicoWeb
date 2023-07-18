@@ -25,7 +25,7 @@ export const navlink = [
   },
   {
     url: "/about",
-    text: "Capitulo Uno",
+    text: "Capítulo Uno",
     submenu: [
       {
         title: "Web desing",
@@ -34,15 +34,15 @@ export const navlink = [
   },
   {
     url: "/services",
-    text: "Capitulo Dos",
+    text: "Capítulo Dos",
   },
   {
     url: "/portfolio",
-    text: "Capitulo Tres",
+    text: "Capítulo Tres",
   },
   {
     url: "/testimonials",
-    text: "Capitulo Cuatro",
+    text: "Capítulo Cuatro",
   },
   {
     url: "/blog",
@@ -57,7 +57,7 @@ export const home = [
   {
     text: "BIENVENIDOS",
     name: "AL CURSO DE",
-    post: "COMUNICACION ANALOGICA",
+    post: "COMUNICACIÓN ANALÓGICA",
     design: "SEXTO / A",
     desc: "",
   },
@@ -71,11 +71,11 @@ export const about = [
       "En la era de la información en la que vivimos, son muy comunes los términos analógico y digital, en poco tiempo, poco a poco se ha ido abandonando el uso de sistemas analógicos para dar paso a componentes y tecnologías digitales. Con el desarrollo de los ordenadores y la demanda de una comunicación más rápida comienza la era de la comunicación. Con la generalización del uso de los ordenadores y el uso de Internet se desarrollan sistemas de comunicación entre usuarios, como los e-mails y los chats.",
     desc4: "Convertidor A/D",
     desc6:
-      "El medio de transmisión constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Se Distinguen dos tipos de medios: guiados y no guiados. En ambos casos la transmisión se realiza por medio de ondas electromagnéticas. Los medios guiados conducen (guían) las ondas a través de un camino físico, ejemplos de estos medios son el cable coaxial, la fibra óptica y el par trenzado. Los medios no guiados proporcionan un soporte para que las ondas se transmitan, pero no las dirigen; como ejemplo de ellos son el aire y el vacío",
+      "El medio de transmisión constituye el soporte físico a través del cual emisor y receptor pueden comunicarse en un sistema de transmisión de datos. Se Distinguen dos tipos de medios: guiados y no guiados. En ambos casos la transmisión se realiza por medio de ondas electromagnéticas. Los medios guiados conducen (guían) las ondas a través de un camino físico, ejemplos de estos medios son el cable coaxial, la fibra óptica y el par trenzado. Los medios no guiados proporcionan un soporte para que las ondas se transmitan, pero no las dirigen; como ejemplo de ellos son el aire y el vacío.",
     desc7:
-      "Este consiste en dos alambres de cobre aislados, en general de 1mm de espesor. Los alambres se entrelazan en forma helicoidal, como en una molécula de DNA. La forma trenzada del cable se utiliza para reducir la interferencia eléctrica con respecto a los pares cercanos que se encuentran a su alrededor. Los pares trenzados se pueden utilizar tanto paratransmisión analógica como digital, y su ancho de banda depende del calibre del alambre yde la distancia que recorre; en muchos casos pueden obtenerse transmisiones de varios megabits, en distancias de pocos kilómetros",
+      "Este consiste en dos alambres de cobre aislados, en general de 1mm de espesor. Los alambres se entrelazan en forma helicoidal, como en una molécula de DNA. La forma trenzada del cable se utiliza para reducir la interferencia eléctrica con respecto a los pares cercanos que se encuentran a su alrededor. Los pares trenzados se pueden utilizar tanto paratransmisión analógica como digital, y su ancho de banda depende del calibre del alambre yde la distancia que recorre; en muchos casos pueden obtenerse transmisiones de varios megabits, en distancias de pocos kilómetros.",
     desc8:
-      "Es un cable de transmisión de datos que se compone de dos conductores que se orientan de forma coaxial y separados por una capa de aislamiento dieléctrico. La estructura de un cable coaxial típico se basaría en un núcleo compuesto de un alambre de metal rodeado por un aislante llamado dieléctrico. Dicho aislamiento está protegido por una malla metálica (lámina o trenza) y todo el cable entero está envuelto en una cubierta externa protectora, resguardando así el cable de la humedad. ",
+      "Es un cable de transmisión de datos que se compone de dos conductores que se orientan de forma coaxial y separados por una capa de aislamiento dieléctrico. La estructura de un cable coaxial típico se basaría en un núcleo compuesto de un alambre de metal rodeado por un aislante llamado dieléctrico. Dicho aislamiento está protegido por una malla metálica (lámina o trenza) y todo el cable entero está envuelto en una cubierta externa protectora, resguardando así el cable de la humedad.",
     desc9:
       "Estas bandas cubren aproximadamente desde 55 a 550 Mhz. Son también omnidireccionales, pero a diferencia de las anteriores la ionosfera es transparente a ellas. Su alcance máximo es de un centenar de kilómetros, y las velocidades que permite del orden de los 9600 bps. Su aplicación suele estar relacionada con los radioaficionados y con equipos de comunicación militares, también la televisión y los aviones.",
     desc10:
@@ -106,7 +106,7 @@ export const about = [
     eficiencia en el uso del ancho de banda`,
     desc17: `Aumento del costo con la potencia (impacto en el tamaño y la duración de las baterías)
     además está limitado el ancho de banda. Se requiere a la vez eficiencia en la energía y en el
-    ancho de banda`,
+    ancho de banda.`,
     desc18: `La Comunicación es la transferencia de información con sentido desde un lugar (remitente,
       origen, fuente, transmisor) a otro lugar (destino, receptor). Por otra parte, Información es un
       patrón físico al cual se le ha asignado un significado comúnmente acordado. El patrón debe
@@ -117,10 +117,10 @@ export const about = [
     sentidos primarios del oído, vista y tacto. El receptor asumirá que no se está comunicando
     información si no se reciben patrones reconocibles. En la siguiente figura se muestra un diagrama a bloques del modelo básico de un sistema de
     comunicaciones, en éste se muestran los principales componentes que permiten la
-    comunicación`,
+    comunicación.`,
     desc20: `En toda comunicación existen tres elementos básicos (imprescindibles uno del otro) en un
     sistema de comunicación: el transmisor, el canal de transmisión y el receptor. Cada uno tiene
-    una función característica`,
+    una función característica.`,
     desc21: `Pasa el mensaje al canal en forma de señal. Para lograr una transmisión
     eficiente y efectiva, se deben desarrollar varias operaciones de procesamiento de la
     señal. La más común e importante es la modulación, un proceso que se distingue por
@@ -135,7 +135,7 @@ export const about = [
     Como las señales son frecuentemente muy débiles, comoresultado de la atenuación,
     el receptor debe tener varias etapas de amplificación. En todo caso, la operación clave
     que ejecuta el receptor es la demodulación, el caso inverso del proceso de modulación
-    del transmisor, con lo cual vuelve la señal a su forma original`,
+    del transmisor, con lo cual vuelve la señal a su forma original.`,
     desc24: `Información que se pretende llegue del emisor al receptor por medio de
     un sistema de comunicación. Puede ser en formas como ser texto, número, audio,
     gráficos, etc. Este también puede ser de forma verbal o no verbal.`,
@@ -149,7 +149,7 @@ export const about = [
     controlado por tensión (voltage-controlled oscillator o VCO) es un claro ejemplo. Para ejecutar la función de los generadores de señal se emplea algún tipo de realimentación 
     conjuntamente con dispositivos que tengan características dependientes del tiempo (normalmente condensadores). Hay dos categorías de generadores de señal: osciladores 
     sintonizados o sinusoidales y osciladores de relajación.`,
-    desc27: `Oscilador es un circuito que genera una señal periódica, es decir, que produce una señal periódica a la salida sin tener ninguna entrada periódica. Los osciladores se clasifican en armónicos, cuando la salida es sinusoidal, o de relajación, si generan una onda cuadrada`,
+    desc27: `Oscilador es un circuito que genera una señal periódica, es decir, que produce una señal periódica a la salida sin tener ninguna entrada periódica. Los osciladores se clasifican en armónicos, cuando la salida es sinusoidal, o de relajación, si generan una onda cuadrada.`,
     desc28: `Un oscilador a cristal es un oscilador armónico cuya frecuencia está determinada por un 
     cristal de cuarzo o una cerámica piezoeléctrica. Los sistemas de comunicación suelen 
     emplean osciladores armónicos, normalmente controlados por cristal, como oscilador de 
@@ -157,7 +157,7 @@ export const about = [
     ajustar mecánicamente (condensadores o bobinas de valor ajustable) o aplicando tensión 
     a un elemento, estos últimos se conocen como osciladores controlados por tensión o VCO, 
     es decir, osciladores cuya frecuencia de oscilación depende del valor de una tensión de 
-    control. Y también es posible hallar osciladores a cristal controlados por tensión`,
+    control. Y también es posible hallar osciladores a cristal controlados por tensión.`,
     desc29: `Un oscilador retroalimentado es un amplificador con un lazo de retroalimentación, es 
     decir, con un paso para que la energía se propague desde la salida y regrese a la entrada. 
     Los osciladores autosostenidos (o monoestables) son osciladores retroalimentados. Una 
@@ -168,10 +168,10 @@ export const about = [
     Barkhausen, para que un circuito retroalimentado sostenga oscilaciones, la ganancia neta 
     de voltaje en torno al lazo de retroalimentación debe ser igual o mayor que la unidad, y 
     el desplazamiento neto de fase en torno al lazo debe ser un múltiplo entero positivo de 
-    360°`,
+    360°.`,
     desc30: `Las señales de información deben ser transportadas entre un transmisor y un receptor sobre alguna forma de medio de transmisión. Sin embargo, las señales de información pocas veces encuentran una forma adecuada para la transmisión. la modulación se define como el proceso de transformar información de su forma original a una forma más adecuada para la transmisión. Demodulación es el proceso inverso. La modulación se realiza en el transmisor en un circuito llamado modulador. (Vega, 2018)`,
     desc31: `Ilustración 1: Esquema básico de una transmisión en telecomunicaciones`,
-    desc32: `Modulación de amplitud (AM es el proceso de cambiar la amplitud de una portadora de frecuencia relativamente alta de acuerdo con la amplitud de la señal modulante (información). Las frecuencias que son lo suficientemente altas para radiarse de manera eficiente por una antena y propagase por el espacio libre se llaman comúnmente radiofrecuencias o simplemente RF. Con la modulación de amplitud, la información se imprime sobre la portadora en la forma de cambios de amplitud`,
+    desc32: `Modulación de amplitud (AM es el proceso de cambiar la amplitud de una portadora de frecuencia relativamente alta de acuerdo con la amplitud de la señal modulante (información). Las frecuencias que son lo suficientemente altas para radiarse de manera eficiente por una antena y propagase por el espacio libre se llaman comúnmente radiofrecuencias o simplemente RF. Con la modulación de amplitud, la información se imprime sobre la portadora en la forma de cambios de amplitud.`,
 
     desc33: `La modulación de amplitud es una forma de modulación relativamente barata y de baja calidad de modulación que se utiliza en la radiodifusión de señales de audio y vídeo. La banda de radiodifusión comercial AM abarca desde 535 a 1605 kHz. La radiodifusión comercial de tv se divide en tres bandas (dos de VHF y una de UHF). (Vega, 2018)`,
 
@@ -182,19 +182,19 @@ export const about = [
 La frecuencia de la portadora oscila más o menos rápidamente, según la onda moduladora, esto es, si aplicamos una moduladora de 100 Hz , la onda modulada se desplaza arriba y abajo cien veces en un segundo respecto de su frecuencia central , que es la portadora; además el grado de esta variación dependerá del volumen con que modulemos la portadora, a lo que denominamos “índice de modulación”.
 `,
     desc38: `Aplicaciones de FM:`,
-    desc39: `La radio, en donde los receptores emplean un detector de FM y exhiben un fenómeno llamado efecto de captura, en donde el sintonizador es capaz de recibir la señal más fuerte de las que transmiten en la misma frecuencia`,
+    desc39: `La radio, en donde los receptores emplean un detector de FM y exhiben un fenómeno llamado efecto de captura, en donde el sintonizador es capaz de recibir la señal más fuerte de las que transmiten en la misma frecuencia.`,
     desc40: `Transmite señales estereofónicas`,
     desc42: `Sus aplicaciones se encuentran la televisión, como sub-portadora de sonido`,
     desc43: `En micrófonos inalámbricos`,
     desc44: `Como ayuda en navegación aérea`,
-    desc45: `La modulación angular, es la que resulta de variar la fase o la frecuencia instantánea de una portadora, con una función proporcional a la señal de modulación. En este tipo de modulación, la potencia de la señal de salida no depende de la potencia de la señal de entrada, y la banda final de la señal modulada es mayor o igual que el doble de la frecuencia más alta de modulación. La modulación angular analógica puede ser de fase (PM) o de frecuencia (FM). La modulación angular digital puede ser PSK.  Los moduladores y/o demoduladores están basados en PLL, utilizados tanto en señales analógicas como en señales digitales, debido a su integración, reducción de tamaño y sea la tensión de una portadora no modulada`,
+    desc45: `La modulación angular, es la que resulta de variar la fase o la frecuencia instantánea de una portadora, con una función proporcional a la señal de modulación. En este tipo de modulación, la potencia de la señal de salida no depende de la potencia de la señal de entrada, y la banda final de la señal modulada es mayor o igual que el doble de la frecuencia más alta de modulación. La modulación angular analógica puede ser de fase (PM) o de frecuencia (FM). La modulación angular digital puede ser PSK.  Los moduladores y/o demoduladores están basados en PLL, utilizados tanto en señales analógicas como en señales digitales, debido a su integración, reducción de tamaño y sea la tensión de una portadora no modulada.`,
     desc46: `Variar la fase de una portadora de amplitud constante en proporción directa a la amplitud de la señal moduladora, con una rapidez igual a la frecuencia de la señal moduladora.`,
     desc47: `Un modulador de fase es un circuito en el que se hace variar Ia portadora de tal modo que su fase instantánea es proporcional a Ia señal moduladora.
     Un modulador de FM que está precedido por un diferenciador produce una onda de salida en la que la desviación de fase es proporcional a la señal moduladora y equivale, en consecuencia, a un modulador de fase. Son posibles algunas otras equivalencias interesantes. Por ejemplo, un demodulador de frecuencia seguido de un integrador equivale a un demodulador de fase. 
     `,
     desc48: `Las funciones Jo (mf), J1 (mf), J2 (mf)….Jn (mf) son funciones de Bessel de primera especie, orden n y argumento mf. En la Fig.2 se muestra la representación gráfica de las funciones de Bessel de orden 0, 1, 2 y 3, en función de mf.`,
     desc49: `Carson estableció una regla general paro estimar el ancho de banda de todos los sistemas con modulación angular, independiente del índice de modulación. A esto se llama regla 
-    de Carson. Enunciada en forma sencilla. esta regla establece el ancho de banda necesario para trasmitir una onda con modulación angular. como igual a dos veces la suma de la desviación máxima de frecuencia por la frecuencia máxima de señal moduladora`,
+    de Carson. Enunciada en forma sencilla. esta regla establece el ancho de banda necesario para trasmitir una onda con modulación angular. Como igual a dos veces la suma de la desviación máxima de frecuencia por la frecuencia máxima de señal moduladora.`,
     desc50: `En esta sección de la guía se explicar ‘a, de forma general, cual es la metodología de trabajo a seguir durante la práctica. Aunque la práctica se centra en las modulaciones de fase y de frecuencia, para la realización de la misma es necesario conocer algunos conceptos adicionales como la cuantización, muestreo, conversión analógico-digital y viceversa, etc. `,
     desc51: `Moduladores de FM directos`,
     desc52: `La FM directa es la modulación angular en la cual la frecuencia de la portadora varía (es desviada) directamente por la señal modulante. Con la FM directa, la desviación de frecuencia instantánea es directamente proporcional a la amplitud de la señal modulante.`,
