@@ -24,7 +24,7 @@ export const Testimonials = () => {
               <div className="left" data-aos="fade-down-left">
                 <Heading title="CAPITULO 4" />
                 <Heading title="1.MODULACIÓN POR FRECUENCIA ANALÓGICA (FM)" />
-                <p>{val.desc37}</p>
+                <h2>{val.desc37}</h2>
                 <BringPdfFour />
                 <button onClick={handleDownload}>Download Word</button>
                 <button className="primaryBtn">More Information</button>
@@ -34,7 +34,7 @@ export const Testimonials = () => {
           <div className="">
             {about.map((val) => (
               <>
-                <div className="right" data-aos="fade-down-right">
+                <div className="right">
                   <img src={val.cover18} alt="" />
                   {/* <p>{val.desc1}</p> */}
                   {/* <p>{val.desc2}</p> */}
@@ -51,9 +51,8 @@ export const Testimonials = () => {
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <div className="img-container" data-aos="fade-down-right">
+                <div className="img-container">
                   <img src={val.cover39} alt="" />
-
                 </div>
                 {/* <p>Ilustración 1 Historia de las telecomunicaciones</p> */}
 
@@ -64,11 +63,9 @@ export const Testimonials = () => {
           ))}
         </div>
       </section>
-       {/*  */}
-       <section className="about">
-        <div className="container flex">
-          
-        </div>
+      {/*  */}
+      <section className="about">
+        <div className="container flex"></div>
       </section>
 
       {/* Seccion 2 */}
@@ -82,10 +79,10 @@ export const Testimonials = () => {
                 <h2>{val.desc40}</h2>
                 <h2>{val.desc41}</h2>
                 <h2>{val.desc42}</h2>
+                <p>Ilustración 3: Aplicaciones de FM</p>
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover19} alt="" />
                 </div>
-                {/* <p>Ilustración 1 Historia de las telecomunicaciones</p> */}
 
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">Download CV</button> */}
@@ -106,10 +103,10 @@ export const Testimonials = () => {
                 {/* <h2>{val.desc46}</h2>
                 <h2>{val.desc47}</h2>
                 <h2>{val.desc48}</h2> */}
+                <p>Ilustración 4: Modulación angular</p>
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover20} alt="" />
                 </div>
-                {/* <p>Ilustración 1 Historia de las telecomunicaciones</p> */}
 
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">Download CV</button> */}
@@ -123,14 +120,14 @@ export const Testimonials = () => {
         <div className="container flex">
           {about.map((val) => (
             <>
-              <Heading title="Modulación directa de fase (PM) " />
+              <Heading title="Modulación directa de fase (PM)" />
               <div className="left" data-aos="fade-down-left">
                 {/* <p>{val.desc46}</p> */}
                 <h2>{val.desc46}</h2>
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover21} alt="" />
                 </div>
-                <p>Ilustración 3 Elementos de un sistema de comunicacion</p>
+                <p>Ilustración 5: Modulación directa de fase (PM)</p>
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">Download CV</button> */}
               </div>
@@ -149,7 +146,7 @@ export const Testimonials = () => {
                 <Heading title="Análisis en frecuencia de las ondas  con  modulación angular" />
 
                 <h2>{val.desc48}</h2>
-                <p>Ilustracion 4 Medios de transmisión</p>
+                <p>Ilustracion 6: Modulación Angular</p>
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover23} alt="" />
                 </div>
@@ -184,12 +181,12 @@ export const Testimonials = () => {
             <>
               <div className="left" data-aos="fade-down-left">
                 <Heading title="Ancho mínimo de banda" />
-                <p>{val.desc49}</p>
+                <h2>{val.desc49}</h2>
                 {/* <h2>{val.desc1}</h2> */}
+                <p>Ilustracion 7: Ancho de banda</p>
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover24} alt="" />
                 </div>
-                <p>Ilustracion 6 Cable Coaxial</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -211,7 +208,7 @@ export const Testimonials = () => {
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover25} alt="" />
                 </div>
-                <p>Ilustracion 5 Pares trenzados</p>
+                <p>Ilustracion 8: Etapas Frecuencia Analógico</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -234,7 +231,7 @@ export const Testimonials = () => {
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover26} alt="" />
                 </div>
-                <p>Ilustracion 7 Radio Enlace</p>
+                <p>Ilustracion 9: Moduladores</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -256,7 +253,7 @@ export const Testimonials = () => {
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover27} alt="" />
                 </div>
-                <p>Ilustracion 8 Microondas</p>
+                <p>Ilustracion 10: Moduladores de diodo varactor</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -279,7 +276,7 @@ export const Testimonials = () => {
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover28} alt="" />
                 </div>
-                <p>Ilustracion 8 Microondas</p>
+                <p>Ilustracion 11 Transmisores</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -301,7 +298,7 @@ export const Testimonials = () => {
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover27} alt="" />
                 </div>
-                <p>Ilustracion 8 Microondas</p>
+                <p>Ilustracion 12: Transmisor directo de FM de Crosby</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -324,7 +321,7 @@ export const Testimonials = () => {
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover30} alt="" />
                 </div>
-                {/* <p>Ilustracion 8 Microondas</p> */}
+                <p>Ilustracion 13: Moduladores indirectos</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -363,7 +360,7 @@ export const Testimonials = () => {
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover31} alt="" />
                 </div>
-                {/* <p>Ilustracion 9 Señal Analógica</p> */}
+                <p>Ilustracion 14: Transmisor FM indirecto de Armstrong</p>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
@@ -373,68 +370,110 @@ export const Testimonials = () => {
         </div>
       </section>
 
-      {/* Seccion 12 */}
+      {/* Espaciador */}
       <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="EJEMPLOS DE SOLUCIONES EN EL DISEÑO DE SISTEMAS DE COMUNICACIÓN" />
-                <Heading title="Comunicaciones Satelitales" />
-                <h2>{val.desc15}</h2>
-                <Heading title="Comunicaciones de microondas" />
-                <h2>{val.desc16}</h2>
-                <Heading title="Telefonía celular" />
-                <h2>{val.desc17}</h2>
-              </div>
-            </>
-          ))}
-        </div>
+        <div className="container flex"></div>
       </section>
 
-      {/* Seccion 13 */}
+      {/* Seccion 12*/}
       <section className="about">
         <div className="container flex">
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="MODELO BÁSICO DE TELECOMUNICACIONES" />
-                <Heading title="Sistema básico de comunicación" />
-                <Heading title="Modelo de un Sistema de Comunicaciones:" />
-                <h2>{val.desc18}</h2>
-                <h2>{val.desc19}</h2>
+                <Heading title="Demodulación FM" />
+                <h2>
+                  Si recordamos lo visto en clase, FM se define como una
+                  modulación angular, concretamente una modulación en
+                  frecuencia; esto es, mediante variaciones en la frecuencia de
+                  la portadora se puede codificar la señal analógica para
+                  transmitir la información.{" "}
+                </h2>
+                <h2>
+                  La red más simple para la demodulación de FM consiste en un
+                  diferenciador ideal seguido de un detector de envolvente. Bajo
+                  la suposición de que la entrada al diferenciador es una onda
+                  de FM de amplitud constante (en caso contrario se utiliza un
+                  limitador pasa banda) su salida es una onda modulada en
+                  amplitud y frecuencia.{" "}
+                </h2>
+                {/* <p>{val.desc14}</p> */}
+                {/* <h2>{val.desc1}</h2> */}
                 <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover10} alt="" />
+                  <img src={val.cover58} alt="" />
                 </div>
+                <p>Ilustracion 15: Demodulación FM</p>
+                {/* <BringPdf/> */}
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">More Information</button> */}
               </div>
             </>
           ))}
         </div>
       </section>
 
-      <section className="about"></section>
-
-      {/* Seccion 14 */}
-
+      {/* Seccion 13*/}
       <section className="about">
         <div className="container flex">
           {about.map((val) => (
             <>
               <div className="left" data-aos="fade-down-left">
-                <Heading title="ELEMENTOS DEL SISTEMA" />
-                <h2>{val.desc20}</h2>
+                <Heading title="Demodulación con GNURADIO y HACKRF" />
+                <h2>
+                  Las modulaciones FM pueden modelarse del mismo modo que las de
+                  PM, pero con un integrador a la entrada de la señal
+                  moduladora; o con un VCO realimentado (PLL), lo que minimiza
+                  el error, pero vuelve el circuito más caro. No obstante, nos
+                  interesa saber cómo demodular, pues de la difusión de radio
+                  nos llega ya la señal modulada en FM.
+                </h2>
+                <h2>Para demodular una señal FM tenemos dos opciones:</h2>
+                <h2>
+                  • Discriminador reactivo: conseguimos que la señal de salida
+                  aparezca modulada en amplitud (AM) y aplicamos un detector de
+                  envolvente.{" "}
+                </h2>
+                <h2>
+                  • Detector de fase con PLL: Primeramente, debemos conocer el
+                  espectro de la radio FM, comprendido entre los 85 MHz y los
+                  107 MHz aproximadamente. Cada uno de los canales de radio FM
+                  suelen tener un ancho de banda alrededor de los 200 KHz para
+                  evitar interferencias entre ellas (cada emisora no suele
+                  ocupar más ancho de banda que 80 KHz){" "}
+                </h2>
 
-                <Heading title="El Transmisor" />
-                <p>{val.desc21}</p>
-                <Heading title="El Canal" />
-                <p>{val.desc22}</p>
-                <Heading title="Receptor" />
-                <p>{val.desc23}</p>
-                <Heading title="El Mensaje" />
-                <p>{val.desc24}</p>
-                {/* <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover10} alt="" />
-                </div> */}
+                <div className="img-container" data-aos="fade-down-right">
+                  <img src={val.cover59} alt="" />
+                </div>
+                <p>Ilustracion 16: Demodulación con GNURADIO y HACKRF</p>
+                {/* <BringPdf/> */}
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">More Information</button> */}
+              </div>
+            </>
+          ))}
+        </div>
+      </section>
+
+      {/* Seccion 14*/}
+      <section className="about">
+        <div className="container flex">
+          {about.map((val) => (
+            <>
+              <div className="left" data-aos="fade-down-left">
+                <Heading title="Demodulador FM por discriminador" />
+                <h2>
+                  Detector clásico de FM, consiste en derivar la señal con
+                  respecto al tiempo y obtener la señal original más una señal
+                  modulada en AM
+                </h2>
+                <div className="img-container" data-aos="fade-down-right">
+                  <img src={val.cover60} alt="" />
+                </div>
+                <p>Ilustracion 17: Demodulador FM por discriminador</p>
+                {/* <BringPdf/> */}
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">More Information</button> */}
               </div>
             </>
           ))}

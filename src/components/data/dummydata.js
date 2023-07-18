@@ -46,7 +46,7 @@ export const navlink = [
   },
   {
     url: "/blog",
-    text: "Software",
+    text: "Prácticas",
   },
   {
     url: "/contact",
@@ -278,8 +278,15 @@ La frecuencia de la portadora oscila más o menos rápidamente, según la onda m
     cover52: `./images/capthree/filtrovsb.png`,
     cover53: `./images/capthree/diagramademodulador.png`,
     cover54: `./images/capthree/demoduladoram.png`,
-    cover55: `./images/capthree/relacionmensaje.png`,
-    cover56: `./images/capthree/relacionmensaje.png`,
+    cover55: `./images/capthree/modulacionasincrona.png`,
+    cover56: `./images/capthree/receptoram.png`,
+    cover57: `./images/capthree/heterodino.png`,
+    cover58: `./images/capfour/demoduladorfm.png`,
+    cover59: `./images/capfour/detectorfasepll.png`,
+    cover60: `./images/capfour/demoduladorFMdiscriminador.png`,
+    cover61: `./images/blog/balancedepotencia.png`,
+    cover62: `./images/blog/mezcladores.png`,
+    cover63: `./images/blog/demoduladorFMdiscriminador.png`,
 
 
     
@@ -437,20 +444,7 @@ export const testimonials = [
     post: "Moduladores y demoduladores de fase y de frecuencia",
   },
 ];
-export const blog = [
-  {
-    id: 1,
-    video: "https://www.youtube.com/watch?v=dS4Mq70cf4g",
-  },
-  {
-    id: 2,
-    video: "https://www.youtube.com/watch?v=oCxtsTU4BWg",
-  },
-  {
-    id: 3,
-    video: "https://www.youtube.com/watch?v=xCDp5xg1Oac",
-  },
-];
+
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,

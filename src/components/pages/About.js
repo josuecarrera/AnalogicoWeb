@@ -28,7 +28,7 @@ export const About = () => {
                 <h2>{val.desc}</h2>
                 <BringPdf />
                 <button onClick={handleDownload}>Download Word</button>
-                <PracticeGuide />
+                {/* <PracticeGuide /> */}
                 <PracticeGuide2 />
               </div>
             </>

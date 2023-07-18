@@ -462,11 +462,144 @@ export const Portfolio = () => {
                   trabajo es describir el proceso de demodulación AM y diseñar
                   un sistema receptor de señales AM.
                 </h2>
+                <h2>
+                  La demodulación de amplitud se puede realizar de manera
+                  síncrona o asíncrona, dependiendo de si se dispone de un
+                  oscilador sincronizado en frecuencia y fase con la portadora
+                  de señal recibida.
+                </h2>
+                <h2>
+                  La sincronización en frecuencia es relativamente fácil de
+                  conseguir, no así la sincronización de fase.
+                </h2>
 
                 {/* <p>Ilustración 13: Funcionamiento de un Demodulador AM</p>
                 <div className="img-container">
                   <img src={val.cover54} alt="" />
                 </div> */}
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">Download CV</button> */}
+              </div>
+            </>
+          ))}
+        </div>
+      </section>
+
+      {/* Seccion 15 */}
+      <section className="about">
+        <div className="container flex">
+          {about.map((val) => (
+            <>
+              <div className="left">
+                <Heading title="Demodulación AM asíncrona" />
+                {/* <p>{val.desc3}</p> */}
+
+                <h2>
+                  En este caso no disponemos de un oscilador sintonizado en
+                  frecuencia y fase con la portadora.
+                </h2>
+                <h2>
+                  El sistema que permite la demodulación asíncrona de señales
+                  con modulación AM es el detector de envolvente.
+                </h2>
+
+                <p>Ilustración 14:Modulación asíncrona</p>
+                <div className="img-container">
+                  <img src={val.cover55} alt="" />
+                </div>
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">Download CV</button> */}
+              </div>
+            </>
+          ))}
+        </div>
+      </section>
+
+      {/* Seccion 16 */}
+      <section className="about">
+        <div className="container flex">
+          {about.map((val) => (
+            <>
+              <div className="left">
+                <Heading title="Transmisión de la información" />
+                {/* <p>{val.desc3}</p> */}
+
+                <h2>
+                  La demodulación o detección es el proceso de recuperar la
+                  información transportada por la señal modulada.
+                </h2>
+                <h2>
+                  Un receptor AM convencional simplemente convierte la onda de
+                  amplitud modulada nuevamente en la fuente original de
+                  información, es decir, la demodula. Cuando una señal es
+                  enviada por un emisor va a ser recibida por un receptor, y lo
+                  primero que éste debe hacer es demodular la señal la señal
+                  modulada que llega para obtener la que la información que esta
+                  trae impresa. Para demodular señales AM, las constantes de
+                  tiempo se seleccionan de manera que: En el receptor AM la
+                  señal de transporte se selecciona sintonizando un circuito
+                  resonante LC a la frecuencia f c. Esto permite seleccionar una
+                  estación en particular de todas la que están transmitiendo en
+                  la banda AM. La señal seleccionada se amplifica en la región
+                  RF y se demodula, utilizando el circuito de cubierta de la
+                  figura 6, para extraer la parte de la señal que representa la
+                  información transmitida. La señal demodulada se amplifica en
+                  la región de audio y mediante un amplificador de potencia se
+                  prepara para alimentar una bocina de 8Ω. Para comprender mejor
+                  el proceso de demodulación, es necesario tener una comprensión
+                  básica de la terminología utilizada para describir las
+                  características de los receptores y de sus circuitos. Teniendo
+                  en cuenta el diagrama de bloques de la figura 4 se puede
+                  explicar de la siguiente forma: La sección RF es la primera
+                  etapa y se le llama parte frontal.
+                </h2>
+
+                <p>Ilustración 15: Diagrama de bloques de un receptor AM</p>
+                <div className="img-container">
+                  <img src={val.cover56} alt="" />
+                </div>
+                {/* <button>Download CV</button> */}
+                {/* <button className="primaryBtn">Download CV</button> */}
+              </div>
+            </>
+          ))}
+        </div>
+      </section>
+
+      {/* Espaciador */}
+      <section className="about">
+        <div className="container flex"></div>
+      </section>
+
+      {/* Seccion 17 */}
+      <section className="about">
+        <div className="container flex">
+          {about.map((val) => (
+            <>
+              <div className="left">
+                <Heading title="Receptor heterodino" />
+                {/* <p>{val.desc3}</p> */}
+
+                <h2>
+                  Receptor Superheterodino: Inventado en 1918 por Edwin H.
+                  Armstrong. Es uno de los receptores que aún son utilizados
+                  debido a que sus características de ganancia, selectividad y
+                  sensibilidad son superiores a las otras configuraciones de
+                  receptores.
+                </h2>
+                <h2>
+                  Heterodino significa mezclar dos frecuencias juntas en un
+                  dispositivo no lineal o trasladar una frecuencia a otra
+                  utilizando mezclas no lineales. En un receptor superheterodino
+                  hay cinco secciones: la sección RF, la sección
+                  mezclador/convertidor, la sección de IF, la sección de
+                  detector de audio y la sección de amplificador de audio.
+                </h2>
+
+                <p>Ilustración 16:Principio de receptor heterodino</p>
+                <div className="img-container">
+                  <img src={val.cover57} alt="" />
+                </div>
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">Download CV</button> */}
               </div>
@@ -483,9 +616,25 @@ export const Portfolio = () => {
               <div className="left">
                 <Heading title="PARÁMETROS TÉCNICOS DE LA COMUNICACIÓN POR MODULACIÓN" />
                 {/* <p>{val.desc3}</p> */}
-                <h2></h2>
-                <p>Ilustración 12: Diagrama de un demodulador básico</p>
-                <div className="img-container" data-aos="fade-down-right">
+                <h2>
+                  Los parámetros técnicos de la comunicación por modulación se
+                  refieren a las características fundamentales que definen cómo
+                  se transmite la información en un sistema de comunicación.
+                  Estos parámetros incluyen la frecuencia de la portadora, que
+                  determina la capacidad del canal de transmisión y la
+                  separación entre diferentes canales; la amplitud de la señal
+                  moduladora, que afecta el nivel de la señal modulada; y la
+                  fase de la portadora, que permite la transmisión de datos
+                  mediante cambios en la fase de la señal. Además, otros
+                  parámetros técnicos como la tasa de modulación, el ancho de
+                  banda y la relación señal-ruido también desempeñan un papel
+                  crucial en la calidad y eficiencia de la comunicación por
+                  modulación. Estos parámetros son esenciales para diseñar y
+                  optimizar sistemas de comunicación que permitan una
+                  transmisión confiable y eficaz de la información.
+                </h2>
+                <p>Ilustración 17: Diagrama de un demodulador básico</p>
+                <div className="img-container">
                   <img src={val.cover53} alt="" />
                 </div>
                 {/* <button>Download CV</button> */}
@@ -520,7 +669,7 @@ export const Portfolio = () => {
                   comunicaciones para el diseño y la evaluación de sistemas de
                   modulación.
                 </h2>
-                {/* <p>Ilustracion 4 Medios de transmisión</p> */}
+                 <p>Ilustracion 18: Representación fasorial de Am</p> 
                 <div className="img-container" data-aos="fade-down-right">
                   <img src={val.cover34} alt="" />
                 </div>
@@ -542,208 +691,13 @@ export const Portfolio = () => {
                 <Heading title="REPRESENTACIÓN FASORIAL DE UNA ONDA DE AMPLITUD MODULADA" />
                 <h2>{val.desc7}</h2>
                 {/* <h2>{val.desc1}</h2> */}
-                <p>Ilustracion 5 Pares trenzados</p>
+                <p>Ilustracion 19: Representación fasorial de una onda de amplitud modulada</p>
                 <div className="img-container">
                   <img src={val.cover35} alt="" />
                 </div>
                 {/* <BringPdf/> */}
                 {/* <button>Download CV</button> */}
                 {/* <button className="primaryBtn">More Information</button> */}
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 6 */}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="Cable coaxial" />
-                <p>{val.desc8}</p>
-                {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover5} alt="" />
-                </div>
-                <p>Ilustracion 6 Cable Coaxial</p>
-                {/* <BringPdf/> */}
-                {/* <button>Download CV</button> */}
-                {/* <button className="primaryBtn">More Information</button> */}
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 7 */}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="Radio enlaces de VHF y UHF" />
-                <p>{val.desc9}</p>
-                {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover6} alt="" />
-                </div>
-                <p>Ilustracion 7 Radio Enlace</p>
-                {/* <BringPdf/> */}
-                {/* <button>Download CV</button> */}
-                {/* <button className="primaryBtn">More Information</button> */}
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 8 */}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="Microondas" />
-                <p>{val.desc10}</p>
-                {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover7} alt="" />
-                </div>
-                <p>Ilustracion 8 Microondas</p>
-                {/* <BringPdf/> */}
-                {/* <button>Download CV</button> */}
-                {/* <button className="primaryBtn">More Information</button> */}
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 9 */}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="COMUNICACIÓN DIGITAL VS SEÑAL ANALÓGICA" />
-                {/* <p>{val.desc11}</p> */}
-                {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover8} alt="" />
-                </div>
-                {/* <p>Ilustracion 8 Microondas</p> */}
-                {/* <BringPdf/> */}
-                {/* <button>Download CV</button> */}
-                {/* <button className="primaryBtn">More Information</button> */}
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 10 */}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="Señal digital" />
-                <p>{val.desc11}</p>
-                <p>{val.desc12}</p>
-                {/* <h2>{val.desc1}</h2> */}
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 11*/}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="Señal Analógica" />
-                <p>{val.desc13}</p>
-                {/* <p>{val.desc14}</p> */}
-                {/* <h2>{val.desc1}</h2> */}
-                <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover9} alt="" />
-                </div>
-                {/* <p>Ilustracion 9 Señal Analógica</p> */}
-                {/* <BringPdf/> */}
-                {/* <button>Download CV</button> */}
-                {/* <button className="primaryBtn">More Information</button> */}
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 12 */}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="EJEMPLOS DE SOLUCIONES EN EL DISEÑO DE SISTEMAS DE COMUNICACIÓN" />
-                <Heading title="Comunicaciones Satelitales" />
-                <h2>{val.desc15}</h2>
-                <Heading title="Comunicaciones de microondas" />
-                <h2>{val.desc16}</h2>
-                <Heading title="Telefonía celular" />
-                <h2>{val.desc17}</h2>
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      {/* Seccion 13 */}
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="MODELO BÁSICO DE TELECOMUNICACIONES" />
-                <Heading title="Sistema básico de comunicación" />
-                <Heading title="Modelo de un Sistema de Comunicaciones:" />
-                <h2>{val.desc18}</h2>
-                <h2>{val.desc19}</h2>
-                <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover10} alt="" />
-                </div>
-              </div>
-            </>
-          ))}
-        </div>
-      </section>
-
-      <section className="about"></section>
-
-      {/* Seccion 14 */}
-
-      <section className="about">
-        <div className="container flex">
-          {about.map((val) => (
-            <>
-              <div className="left" data-aos="fade-down-left">
-                <Heading title="ELEMENTOS DEL SISTEMA" />
-                <h2>{val.desc20}</h2>
-
-                <Heading title="El Transmisor" />
-                <p>{val.desc21}</p>
-                <Heading title="El Canal" />
-                <p>{val.desc22}</p>
-                <Heading title="Receptor" />
-                <p>{val.desc23}</p>
-                <Heading title="El Mensaje" />
-                <p>{val.desc24}</p>
-                {/* <div className="img-container" data-aos="fade-down-right">
-                  <img src={val.cover10} alt="" />
-                </div> */}
               </div>
             </>
           ))}
