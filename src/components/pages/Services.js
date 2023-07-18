@@ -29,7 +29,7 @@ export const Services = () => {
             ))}
           </div>
           <BringPdfTwo />
-          <button onClick={handleDownload}>Download CV</button>
+          <button onClick={handleDownload}>Download Word</button>
           {/* <button className="primaryBtn">More Information</button> */}
         </div>
       </section>

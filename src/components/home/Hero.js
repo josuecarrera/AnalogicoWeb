@@ -24,6 +24,7 @@ export const Hero = () => {
             <h2 data-aos='fade-left'>Josue Carrera</h2>
             <h2 data-aos='fade-left'>Mateo Llerena</h2>
             <h2 data-aos='fade-left'>Christian Morales</h2>
+            <h2 data-aos='fade-left'>Kevin Moyolema</h2>
             <h2 data-aos='fade-left'>Alex Revelo</h2>
             {/* <BringPdf/> */}
             {/* <button className="primaryBtn" data-aos='fade-up-right'>
