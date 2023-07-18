@@ -17,6 +17,8 @@ import { PracticeGuide13 } from "../GuiaPracticas/PracticeGuide13";
 import { PracticeGuide14 } from "../GuiaPracticas/PracticeGuide14";
 import { Problems } from "../GuiaPracticas/Problems";
 import { Problems2 } from "../GuiaPracticas/Problems2";
+import { Problems3 } from "../GuiaPracticas/Problems3";
+import { Problems4 } from "../GuiaPracticas/Problems4";
 
 export const Blog = () => {
   return (
@@ -649,6 +651,8 @@ export const Blog = () => {
                   </div> */}
                   <Problems />
                   <Problems2 />
+                  <Problems3 />
+                  <Problems4 />
                   {/* <p>PRÁCTICA N°: 14: MODULADOR FM</p> */}
                 </div>
               </>
